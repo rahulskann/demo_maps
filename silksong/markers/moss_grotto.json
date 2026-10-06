@@ -1,19 +1,10 @@
 [
   {
-    "id": "bench_bb_1",
-    "name": "Bench",
-    "category": "bench",
-    "x": 121,
-    "y": 211,
-    "description": "Placed from the in-game map pin.",
-    "trackable": false
-  },
-  {
     "id": "bench_bb_2",
     "name": "Bench",
     "category": "bench",
-    "x": 531,
-    "y": 116,
+    "x": 699,
+    "y": 126,
     "description": "Placed from the in-game map pin.",
     "trackable": false
   },
@@ -21,17 +12,8 @@
     "id": "bench_bb_3",
     "name": "Bench",
     "category": "bench",
-    "x": 727,
-    "y": 292,
-    "description": "Placed from the in-game map pin.",
-    "trackable": false
-  },
-  {
-    "id": "bench_bb_4",
-    "name": "Bench",
-    "category": "bench",
-    "x": 682,
-    "y": 347,
+    "x": 903,
+    "y": 306,
     "description": "Placed from the in-game map pin.",
     "trackable": false
   },
@@ -39,8 +21,8 @@
     "id": "bench_bb_5",
     "name": "Bench",
     "category": "bench",
-    "x": 297,
-    "y": 500,
+    "x": 456,
+    "y": 518,
     "description": "Placed from the in-game map pin.",
     "trackable": false
   },
@@ -48,8 +30,8 @@
     "id": "bench_bb_6",
     "name": "Bench",
     "category": "bench",
-    "x": 392,
-    "y": 519,
+    "x": 555,
+    "y": 537,
     "description": "Placed from the in-game map pin.",
     "trackable": false
   },
@@ -57,8 +39,8 @@
     "id": "bellway_bone_bottom",
     "name": "Bone Bottom Bellway",
     "category": "bellway",
-    "x": 585,
-    "y": 444,
+    "x": 755,
+    "y": 461,
     "description": "Placed from the in-game map pin.",
     "trackable": false
   }

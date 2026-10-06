@@ -4,7 +4,7 @@
   "name": "Silksong Atlas",
   "game": "Hollow Knight: Silksong",
   "author": "rahulskann",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Unofficial fan-made map of Pharloom. Map art by Team Cherry; see README.",
   "wiki": "https://hollowknight.wiki/w/",
   "categoryGroups": [
@@ -154,30 +154,37 @@
       "id": "world",
       "name": "Pharloom",
       "image": {
-        "width": 1300,
-        "height": 813
+        "width": 1792,
+        "height": 1152
       },
       "tileSize": 256,
       "minZoom": 0,
       "maxZoom": 3,
       "tiles": {
-        "archive": "out/world-tiles.zip",
-        "archiveBytes": 1239511,
-        "path": "{z}/{x}/{y}.png"
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/silksong-v0.6.0/world-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 1945369
       },
       "markers": "markers/world.json",
       "initialView": {
-        "x": 650,
-        "y": 406,
+        "x": 896,
+        "y": 576,
         "zoom": 1
+      },
+      "wiki": "Pharloom",
+      "description": "Pharloom is the location where Hollow Knight: Silksong takes place. A once thriving kingdom, it fell victim to the Haunting created by Grand Mother Silk.",
+      "source": {
+        "name": "Hollow Knight Wiki: Pharloom",
+        "url": "https://hollowknight.wiki/w/Pharloom",
+        "license": "CC BY-SA 3.0"
       },
       "regions": [
         {
           "id": "the_cradle",
           "name": "The Cradle",
           "wiki": "The Cradle",
-          "x": 653,
-          "y": 21,
+          "x": 895,
+          "y": 72,
           "description": "The Cradle is an area located above the Citadel in which Grand Mother Silk resides, asleep. Below her, there is an area which contains several cages that were used to capture descendants of the Weavers, similar to how Hornet was captured at the beginning of the game. The Cradle also features a small field of white flowers, where Lace guards the Citadel lift's rise to the top.\n\nWhat's here\nItems: Silkeater; Pale Nails; Silk Heart dropped by Lace\nNPCs: Caretaker\nBosses: Lace; Grand Mother Silk",
           "source": {
             "name": "Hollow Knight Wiki: The Cradle",
@@ -189,8 +196,8 @@
           "id": "mount_fay",
           "name": "Mount Fay",
           "wiki": "Mount Fay",
-          "x": 215,
-          "y": 151,
+          "x": 312,
+          "y": 245,
           "description": "Mount Fay is nearly devoid of enemies to fight, and consists almost entirely of platforming challenges, requiring both Clawline and Drifter's Cloak to traverse.\n\nWhat's here\nItems: Faydown Cloak requires playing the Needolin by the Tuning Fork; Silkshot crafted using the Ruined Tool and 1 Craftmetal; Memory Crystal; Pin Badge reward for defeating Pinstress; Mask Shard; Flea; Magnetite Materium entry\nNPCs: Shakra; Mask Maker; Fayforn; Mister Mushroom; Pinstress\nBosses: Pinstress (Act 3 only)",
           "source": {
             "name": "Hollow Knight Wiki: Mount Fay",
@@ -202,8 +209,8 @@
           "id": "the_slab",
           "name": "The Slab",
           "wiki": "The Slab",
-          "x": 365,
-          "y": 176,
+          "x": 512,
+          "y": 279,
           "description": "The Slab consists of a mix of indoor areas, separated by several locked doors that can be unlocked with one of three keys found within the area, and outdoor areas, where Hornet can take frost damage like in Mount Fay.\n\nWhat's here\nItems: Rune Rage bound after defeating First Sinner, requires all Slab Keys; Key of Indolent; Key of Heretic; Mask Shard requires Key of Apostate; Spool Fragment; Memory Locket requires Key of Apostate; Flea; Weaver Effigy requires Key of Apostate; Frayed Rosary String; Shard Bundle; Broodmother's Eye dropped by the Broodmother; The Slab Map\nNPCs: Old Penitent; Grindle (if Hornet has been taken in the Slab by a Wardenfly); Mister Mushroom (during the Passing of the Age wish); Broodling (after killing the Broodmother)\nBosses: First Sinner; Broodmother (during the The Wailing Mother wish)",
           "source": {
             "name": "Hollow Knight Wiki: The Slab",
@@ -215,8 +222,8 @@
           "id": "the_citadel",
           "name": "The Citadel",
           "wiki": "The Citadel",
-          "x": 653,
-          "y": 149,
+          "x": 895,
+          "y": 243,
           "description": "The Citadel sits in a large cavern at the top of Pharloom. Strong wind blows outside of its upper levels. In contrast with the rest of the kingdom, the city's structures are opulent and intricately sculpted, and its rooms are lavish and richly decorated. The bulk of the Citadel is made of metal and stone covered in gold. It is described as being shining, holy, and eternal. Most of its inhabitants are now dead, with many areas covered in webs and some entrances barred with furniture. Nearly all of the remaining bugs are haunted and roam the halls and chambers of the city, posing a danger to those who still retain their own minds.",
           "source": {
             "name": "Hollow Knight Wiki: The Citadel",
@@ -228,8 +235,8 @@
           "id": "putrified_ducts",
           "name": "Putrified Ducts",
           "wiki": "Putrified Ducts",
-          "x": 1010,
-          "y": 141,
+          "x": 1371,
+          "y": 232,
           "description": "The area mostly consists of vile and disgusting water, filled with Muckmaggots. There are 4 large rooms with aqueducts running from one side to another.\nThe ducts are also home to the Ductsucker, which feeds off of the slime on the ducts. The Wreath of Purity tool can be found there, next to the ruins of a Pinstress's balloon.\nVog can be found at the top of the area, after a secret parkour challenge. After talking to her, she will find her way to the Flea Caravan.\nOnce she is back at the Flea Caravan, she will provide the locations of Fleas in exchange for Rosaries.\n\nWhat's here\nItems: Wreath of Purity; Longclaw given by Huntress after completing the Broodfeast wish or by Runt after completing the Runtfeast wish; Key of Apostate; Flea Vog; Frayed Rosary String; Putrified Ducts Map\nNPCs: Huntress; Vog; Runt",
           "source": {
             "name": "Hollow Knight Wiki: Putrified Ducts",
@@ -241,8 +248,8 @@
           "id": "bilewater",
           "name": "Bilewater",
           "wiki": "Bilewater",
-          "x": 1023,
-          "y": 251,
+          "x": 1389,
+          "y": 379,
           "description": "Lying in the heights of Pharloom, Bilewater is a dark, noxious swamp made up of a series of tight caves and large vertical caverns overgrown with murky roots and thorns. Both wooden and stone structures from a time before the Citadel majorly permeate the area, providing platforms and walls for Hornet to navigate the swamp with, alongside orbs of bile that allow Hornet to Needle-bounce off. Like Sinner's Road and the Putrified Ducts, the waters of Bilewater are tainted with Muckmaggots, with some bodies of water even holding the young Slubberlugs that lash out at their prey from the polluted waters. As it is the home of the Stilkin Tribe, the area is scattered with their hidden traps and spikes that activate once Hornet goes past their tripwires.\n\nWhat's here\nItems: Throwing Ring Given by Shakra after completing the Trail's End wish; Quick Sling; Twisted Bud; Mask Shard; Memory Locket; Flea; Frayed Rosary String\nNPCs: Shakra",
           "source": {
             "name": "Hollow Knight Wiki: Bilewater",
@@ -254,8 +261,8 @@
           "id": "sands_of_karak",
           "name": "Sands of Karak",
           "wiki": "Sands of Karak",
-          "x": 222,
-          "y": 283,
+          "x": 321,
+          "y": 421,
           "description": "Sands of Karak consists largely of long, horizontal platforming areas navigated by striking crust tree pearls that spawn short-lived crust trees – linked platforms that can either be flat platforms, hanging walls or crust spike balls – which Hornet must jump and Needle-bounce on before they disappear.\n\nWhat's here\nItems: Memory Locket; Simple Key; Flea; Crustnut; Grey Memento dropped by Watcher at the Edge\nNPCs: Shakra\nBosses: Raging Conchfly; Watcher at the Edge",
           "source": {
             "name": "Hollow Knight Wiki: Sands of Karak",
@@ -267,8 +274,8 @@
           "id": "underworks",
           "name": "Underworks",
           "wiki": "Underworks",
-          "x": 656,
-          "y": 301,
+          "x": 899,
+          "y": 445,
           "description": "The Underworks is where most of the Citadel's machinery is maintained. The area is dreary, coated in smog from the machinery; its workers endlessly slave away cleaning and maintaining the place in close proximity to deadly hazards like exposed gears or lava pits, with hopes of one day rising to join those in the Citadel itself. The local amenities are designed to exploit its workers, as benches must be paid for upon each use, and a confessional exists that plays pre-recorded messages that sentence its faithful workers to more work as penance.\n\nWhat's here\nItems: Delver's Drill; Spool Fragment; Memory Locket; Flea; Bone Scroll; Psalm Cylinder; Frayed Rosary String; Shard Bundle; Underworks Map\nNPCs: Loam",
           "source": {
             "name": "Hollow Knight Wiki: Underworks",
@@ -280,8 +287,8 @@
           "id": "blasted_steps",
           "name": "Blasted Steps",
           "wiki": "Blasted Steps",
-          "x": 222,
-          "y": 361,
+          "x": 321,
+          "y": 525,
           "description": "The Blasted Steps is the highest point of Pharloom's midlands, marking the western border between Pharloom and the Wasteland surrounding the kingdom. Composed of natural caves, a path has been carved for the pilgrimage, turning these caves into the steps at the foot of the Citadel. Strong winds and sand from the Wasteland continually batter the Blasted Steps, eroding much of the old construction. The sand that composes much of the area's floors is constantly passed through by deadly Sandcarvers, who pop out whenever they detect nearby life.\n\nWhat's here\nItems: Needle Strike; Magnetite Dice • During Act 1: given by Lumble the Lucky for beating his game 10 times; Growstone given by Steel Seer Zi after completing the A Vassal Lost wish; Mask Shard; Spool Fragment given by Fleamaster Mooshka after moving the Caravan; Memory Locket; Craftmetal; Flea; Silkeater; Frayed Rosary String; Beast Shard; Hero's Memento obtained after defeating Lost Garmond\nNPCs: Grindle; Lumble the Lucky; Shakra; Flea Caravan; Lace (if not encountered in the Deep Docks or Sinner's Road); Sherma; Nuu (after defeating Great Conchflies); Pinstress; Steel Seer Zi; Tall Pilgrim; Garmond and Zaza (Act 3 only)\nBosses: Last Judge; Great Conchflies; Lost Garmond (Act 3 only)",
           "source": {
             "name": "Hollow Knight Wiki: Blasted Steps",
@@ -293,8 +300,8 @@
           "id": "sinner_s_road",
           "name": "Sinner's Road",
           "wiki": "Sinner's Road",
-          "x": 873,
-          "y": 385,
+          "x": 1189,
+          "y": 557,
           "description": "Sinner's Road is a run-down, boggish area situated beneath the Citadel. Muckroaches run rampant and free through the area, with the keepers who used to keep them corralled and caged now haunted.\nThe area is lined with cages used to keep the tenacious muckroaches in captivity, along with spikes and swinging spike balls to deter their escape and tame them with force, all of which hangs over Muckmaggot-tainted water.\nSinner's Road is described as filthy and its waters are infested with Muckmaggots, similarly to the area that neighbours it, Bilewater.\n\nWhat's here\nItems: Barbed Bracelet; Tacks given by Crull and Benjin after completing the Roach Guts wish, or looted from their corpses in Act 3; Simple Key; Flea; Frayed Rosary String; Silkeater produced infinitely by Styx; Pickled Muckmaggot dropped by Disgraced Chef Lugoli; Steel Spines sold by Crull and Benjin during the Infestation Operation wish, or looted from their corpses in Act 3\nNPCs: Shakra; Skynx; Garmond and Zaza; Green Prince; Lace (if not encountered in the Deep Docks or the Blasted Steps); Courier Pill (during the My Missing Brother wish); Crull and Benjin; Styx\nBosses: Disgraced Chef Lugoli",
           "source": {
             "name": "Hollow Knight Wiki: Sinner's Road",
@@ -306,8 +313,8 @@
           "id": "verdania",
           "name": "Verdania",
           "wiki": "Verdania",
-          "x": 1150,
-          "y": 422,
+          "x": 1558,
+          "y": 607,
           "description": "The Verdania that is found in-game is the remains of the lost kingdom of Verdania. It is a dimly lit cave, housing ruined architectures of the lost kingdom and the lamenting Green Prince. This small corridor is devoid of collectibles, barring the Verdania Map and a bench at the end.\n\nWhat's here\nItems: Verdania Map; Conjoined Heart found after defeating Clover Dancers\nNPCs: Green Prince",
           "source": {
             "name": "Hollow Knight Wiki: Verdania",
@@ -319,8 +326,8 @@
           "id": "greymoor",
           "name": "Greymoor",
           "wiki": "Greymoor",
-          "x": 834,
-          "y": 439,
+          "x": 1137,
+          "y": 629,
           "description": "Greymoor is a large area with a gloomy, dark atmosphere. Constant rainfall leaves the entire region sodden and damp.\nCraws and Mites can be found throughout the area.\n\nWhat's here\nItems: Witch Crest bound after completing the Infestation Operation wish; Pimpillo crafted using 1 Craftmetal in the room above Yarnaby's bellhome; Flea Brew given by Grishkin after completing the The Lost Fleas wish; Spool Fragment; Memory Locket; Flea including Kratt; Bone Scroll; Silkeater; Frayed Rosary String; Shard Bundle\nNPCs: Shakra; Kratt; Garmond and Zaza; Flea Caravan; Yarnaby; Seth (Act 3 only); Mister Mushroom (during the Passing of the Age wish)\nBosses: Moorwing; Shakra (after completing the Trail's End wish, Act 2 only)",
           "source": {
             "name": "Hollow Knight Wiki: Greymoor",
@@ -332,8 +339,8 @@
           "id": "shellwood",
           "name": "Shellwood",
           "wiki": "Shellwood",
-          "x": 383,
-          "y": 445,
+          "x": 536,
+          "y": 637,
           "description": "Shellwood is a medium-sized area in the mid-western half of Pharloom's midlands, bordering the Blasted Steps to the west and Bellhart to the east. The lower portion, known as Shellwood Pond, is a vast but shallow pond that intermittently spans most of the woods' width. While the west side primarily consists of two parallel roads connected by a vertical shaft, the eastern portion is more vertical and contains significantly more platforming, especially compared to preceding areas.\n\nWhat's here\nItems: Cling Grip; Longpin; Pollip Pouch given by Greyroot after completing the Rite of the Pollip wish; Mask Shard; Flea; Weaver Effigy; Frayed Rosary String; Rosary String; Shard Bundle; Pollip Heart\nNPCs: Shakra; Greyroot; Nuu; Pinmaster Plinney (Act 3 only); Garmond and Zaza (Act 3 only)\nBosses: Sister Splinter",
           "source": {
             "name": "Hollow Knight Wiki: Shellwood",
@@ -345,8 +352,8 @@
           "id": "bellhart",
           "name": "Bellhart",
           "wiki": "Bellhart",
-          "x": 569,
-          "y": 473,
+          "x": 783,
+          "y": 675,
           "description": "Bellhart is a settlement that neighbours Greymoor to the east and Shellwood to the west, and is connected to the Marrow via its bottom bellvein. It is the last settlement pilgrims can rest at before their final ascent to the Citadel through Shellwood and the Blasted Steps.\n\nWhat's here\nItems: Memory Locket; Flea; Silver Bell found during the Silver Bells wish; Rosary Necklace given for completing the Silver Bells wish; Mask Shard • given for completing the Savage Beastfly wish; Courier's Swag; Queen's Egg; Liquid Lacquer; Courier's Rasher\nNPCs: Frey; Pinmaster Plinney; Relic Seeker Scrounge; Shakra; Sherma; Couriers Tipp & Pill; Pavo; Bell Hermit; Pondcatcher Reed\nBosses: Widow",
           "source": {
             "name": "Hollow Knight Wiki: Bellhart",
@@ -358,8 +365,8 @@
           "id": "hunter_s_march",
           "name": "Hunter's March",
           "wiki": "Hunter's March",
-          "x": 714,
-          "y": 529,
+          "x": 977,
+          "y": 749,
           "description": "Hunter's March consists mostly of natural tunnels, covered in foliage and crawling with small red ants. The area is often dark, lit only by silk fly lamps; while by itself benign, the darkness becomes dangerous when accompanied by the large number of traps placed around the March, which range from spikes and sickles to a breakable cage that traps Hornet temporarily. Besides traps, much of Hunter's March is covered by bright red thorns, which often necessitate needle bouncing on the equally red flowers; this red colour extends into the March's Skarr. Being the main territory of the Skarr, the red ant tribe is almost always the primary threat, often burrowing in and out of the March's ground to appear and strike quickly. Tiny non-hostile ants also scurry across the ground in this area, retrieving Skarr corpses after defeat as well as loose Shell Shards and Rosaries.\n\nWhat's here\nItems: Curveclaw bought from the Mottled Skarr or found in a room above if he has been killed; Fractured Mask bought from the Mottled Skarr or found on his corpse if he has been killed; Memory Locket; Flea; Rosary Necklace\nNPCs: Mottled Skarr; Shakra; Gilly",
           "source": {
             "name": "Hollow Knight Wiki: Hunter's March",
@@ -370,42 +377,35 @@
         {
           "id": "wormways",
           "name": "Wormways",
-          "map": "bone_bottom",
           "wiki": "Wormways",
-          "x": 122,
-          "y": 544,
+          "x": 188,
+          "y": 769,
           "outline": [
             [
-              9,
-              547
+              37,
+              773
             ],
             [
-              117,
-              547
+              181,
+              773
             ],
             [
-              145,
-              524
+              218,
+              742
             ],
             [
-              231,
-              524
+              333,
+              742
             ],
             [
-              231,
-              592
+              333,
+              833
             ],
             [
-              9,
-              592
+              37,
+              833
             ]
           ],
-          "target": {
-            "x": 0,
-            "y": 165,
-            "width": 440,
-            "height": 235
-          },
           "description": "The Wormways consists of dark, sandy caverns infested with burrowing worms, whose ceaseless churning leaves the rock and bone unstable and whose presence renders most of the area dangerous and difficult to navigate.\n\nWhat's here\nItems: Plasmium Phial given by the Alchemist Zylotol after completing the Alchemist's Assistant wish; Dead Bug's Purse; Shell Satchel replaces the Dead Bug's Purse in Steel Soul Mode; Plasmium Gland given by the Alchemist Zylotol after completing the Advanced Alchemy wish; Mask Shard; Memory Locket; Flea; Frayed Rosary String; Beast Shard dropped by the Craggler; Lifeblood Cocoon 2 of them Act 3 only; each containing 2 Winged Lifeseeds; Plasmium only obtainable while the Alchemist's Assistant wish is active; Plasmified Blood only obtainable while the Alchemist's Assistant or Advanced Alchemy wish is active\nNPCs: Shakra; Alchemist Zylotol\nBosses: Plasmified Zango (Act 3 only)",
           "source": {
             "name": "Hollow Knight Wiki: Wormways",
@@ -417,8 +417,8 @@
           "id": "far_fields",
           "name": "Far Fields",
           "wiki": "Far Fields",
-          "x": 913,
-          "y": 584,
+          "x": 1242,
+          "y": 822,
           "description": "The Far Fields is a large area in the eastern lowlands of Pharloom, known for grassy caverns and wind updrafts. Many passages are unreachable without the Drifter's Cloak, which allows Hornet to ride the strong currents of air rising through the caverns. The caves give way to treacherous lava pools on the lower floors that deal upon contact.\n\nWhat's here\nItems: Drifter's Cloak Given by Seamstress after completing the Flexile Spines Wish; Warding Bell; Curvesickle traded for by the Unnamed Skarr; Memory Locket; Mask Shard 1 shard is given by Sprintmaster Swift after completing the Fastest in Pharloom wish; Flea; Bone Scroll; Rosary String; Rosary Necklace given by by Sprintmaster Swift after completing his first race; Pale Rosary Necklace; Beast Shard • given by Sprintmaster Swift after completing his second race; Horn Fragment dropped by Savage Beastfly; Grass Doll found after defeating Gurr the Outcast; Hunter's Heart found after defeating Skarrsinger Karmelita; Sprintmaster Memento found after completing his fourth race\nNPCs: Shakra; Seamstress; Garmond and Zaza (Act 3 only); Gilly (Act 3 only); Mister Mushroom (Act 3 only); Sprintmaster Swift (Act 3 only); Karmelita (Act 3 only); Unnamed Skarr (Act 3 only)\nBosses: Savage Beastfly (during the Savage Beastfly wish); Fourth Chorus; Gurr the Outcast (during the The Hidden Hunter wish); Skarrsinger Karmelita",
           "source": {
             "name": "Hollow Knight Wiki: Far Fields",
@@ -429,70 +429,64 @@
         {
           "id": "bone_bottom",
           "name": "Bone Bottom",
-          "map": "bone_bottom",
+          "map": "moss_grotto",
           "wiki": "Bone Bottom",
-          "x": 203,
-          "y": 596,
+          "x": 296,
+          "y": 838,
           "outline": [
             [
-              239,
-              524
+              344,
+              742
             ],
             [
-              361,
-              524
+              506,
+              742
             ],
             [
-              361,
-              556
+              506,
+              785
             ],
             [
-              330,
-              557
+              465,
+              786
             ],
             [
-              330,
-              641
+              465,
+              898
             ],
             [
-              274,
-              641
+              390,
+              898
             ],
             [
-              274,
-              687
+              390,
+              960
             ],
             [
-              142,
-              687
+              214,
+              960
             ],
             [
-              142,
-              642
+              214,
+              900
             ],
             [
-              67,
-              642
+              114,
+              900
             ],
             [
-              67,
-              632
+              114,
+              886
             ],
             [
-              115,
-              597
+              178,
+              840
             ],
             [
-              239,
-              597
+              344,
+              840
             ]
           ],
-          "target": {
-            "x": 20,
-            "y": 60,
-            "width": 740,
-            "height": 590
-          },
           "description": "Bone Bottom is a small town that leads to the Marrow. It is inhabited by pilgrims, whose objective is to reach the Citadel. It is composed of tents and bone pieces.\n\nWhat's here\nItems: Spool Fragment; Memory Locket given for completing the Volatile Flintbeetles wish; Rosary Necklace given for completing the Garb of the Pilgrims wish; Heavy Rosary Necklace given for completing the The Terrible Tyrant wish; Hornet Statuette given by Flick the Fixer after completing the An Icon of Hope wish; Weaver Effigy; Choral Commandment; Mossberry; Maiden's Soul given by Chapel Maid during the Silk and Soul wish\nNPCs: Pebb; Shakra; Flick the Fixer; Chapel Maid; Pilby; Fearful Pilgrim; Horned Pilgrim; Quiet Pilgrim; Solemn Pilgrim; Courier Tipp (during the My Missing Courier wish); Mister Mushroom (Act 3 only)\nBosses: Skull Tyrant (after defeating Skull Tyrant in the Marrow)",
           "source": {
             "name": "Hollow Knight Wiki: Bone Bottom",
@@ -503,9 +497,36 @@
         {
           "id": "the_marrow",
           "name": "The Marrow",
+          "map": "the_marrow",
           "wiki": "The Marrow",
-          "x": 446,
-          "y": 594,
+          "x": 620,
+          "y": 836,
+          "outline": [
+            [
+              471,
+              794
+            ],
+            [
+              756,
+              794
+            ],
+            [
+              756,
+              852
+            ],
+            [
+              821,
+              852
+            ],
+            [
+              821,
+              897
+            ],
+            [
+              471,
+              900
+            ]
+          ],
           "description": "The Marrow is located deep in the lowlands of Pharloom. Composed entirely of bone and the ancient shells of long-dead bugs, the Marrow forms the fragile foundation upon which the rest of the kingdom is built. The area is inhabited by Skull Scuttlers, which use the old skulls as protection. The Marrow is also home to Flintbeetles, explosive creatures that hold Flintgems required for the Volatile Flintbeetles wish.\n\nWhat's here\nItems: Straight Pin; Silk Heart dropped by the Bell Beast; Tool Pouch given by Loddie after beating his first challenge; Memory Locket; Craftmetal; Flea; Heavy Rosary Necklace given by Loddie after beating his second challenge; Frayed Rosary String; Flintgem dropped by Flintbeetles during the Volatile Flintbeetles wish; Crown Fragment dropped by the Skull Tyrant; Memory Locket if Volatile Flintbeetles is not completed by Act 3; Beast Shard dropped by the Skull Tyrant in Act 3\nNPCs: Grindle; Loddie; Shakra; Sherma; Flea Caravan; Nuu (after defeating the Skull Tyrant); Garmond and Zaza (Act 3 only); Flick the Fixer (Act 3 only)\nBosses: Skull Tyrant; Bell Beast",
           "source": {
             "name": "Hollow Knight Wiki: The Marrow",
@@ -517,8 +538,8 @@
           "id": "deep_docks",
           "name": "Deep Docks",
           "wiki": "Deep Docks",
-          "x": 730,
-          "y": 644,
+          "x": 998,
+          "y": 902,
           "description": "The Deep Docks is an industrialised forge area in the lowlands of Pharloom. Built by the Citadel, the facility was designed to harvest and deliver rare supplies found only in the volcanic depths of the land. Its main inhabitants are Dock Workers, equipped with bell-shaped helmets, protecting them from falling rubble and attacks from above.\n\nWhat's here\nItems: Swift Step; Diving Bell Key Given by Ballow during the SEEK: The Dark Below objective; Flintslate; Mask Shard; Spool Fragment; Memory Locket; Craftmetal; Silkeater; Flea; Frayed Rosary String; Shard Bundle; Beast Shard; Flintstone Materium entry\nNPCs: Forge Daughter; Shakra; Gilly; Ballow; Garmond and Zaza (Act 3 only)\nBosses: Forebrothers Signis & Gron; Lace",
           "source": {
             "name": "Hollow Knight Wiki: Deep Docks",
@@ -530,8 +551,8 @@
           "id": "weavenest_atla",
           "name": "Weavenest Atla",
           "wiki": "Weavenest Atla",
-          "x": 376,
-          "y": 655,
+          "x": 526,
+          "y": 917,
           "description": "Weavenest Atla's intricately designed stone corridors are covered with heavy layers of Silk. All mechanisms here, such as lamps and the lift that connects the higher and lower parts of the Weavenest, are run by a power room that needs to be activated in order to progress through the area.\n\nWhat's here\nItems: Hunter Crest (Evolved) Hunter Crest can be evolved twice by Eva; Vesticrest given by Eva; Sylphsong obtained by binding Eva; Snare Setter; Weavelight dropped after defeating Moss Mothers; Mask Shard; Spool Fragment; Rune Harp; Mossberry; Weavenest Atla Map\nNPCs: Eva\nBosses: Moss Mother",
           "source": {
             "name": "Hollow Knight Wiki: Weavenest Atla",
@@ -543,8 +564,8 @@
           "id": "the_abyss",
           "name": "The Abyss",
           "wiki": "The Abyss (Silksong)",
-          "x": 653,
-          "y": 733,
+          "x": 895,
+          "y": 1021,
           "description": "Located at the very bottom of the world, the Abyss is a largely dark and gloomy set of caverns and the origin point of the Void. It is made up of expansive caverns held up by large columns and littered with black, fossilised shells of varying sizes. The only flora present in the Abyss are black roots and grass, with the roots being able to bear orbs of Void that can be used to Needle-bounce throughout the area. At the very bottom of the Abyss, a sea of Void Tendrils lash out in barbed forms at any living creature nearby, only repelled by the light of the Everbloom.\n\nWhat's here\nItems: Arcane Egg; The Abyss Map\nNPCs: Lace; Grand Mother Silk; The Knight (as the Void Entity); Siblings\nBosses: Lost Lace",
           "source": {
             "name": "Hollow Knight Wiki: The Abyss (Silksong)",
@@ -552,8 +573,30 @@
             "license": "CC BY-SA 3.0"
           }
         }
-      ],
+      ]
+    },
+    {
+      "id": "pharloom_detailed",
+      "name": "Pharloom (detailed)",
+      "image": {
+        "width": 7680,
+        "height": 5376
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 5,
+      "tiles": {
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/silksong-v0.6.0/pharloom_detailed-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 14409399
+      },
+      "markers": "markers/pharloom_detailed.json",
       "wiki": "Pharloom",
+      "initialView": {
+        "x": 3840,
+        "y": 2688,
+        "zoom": 2
+      },
       "description": "Pharloom is the location where Hollow Knight: Silksong takes place. A once thriving kingdom, it fell victim to the Haunting created by Grand Mother Silk.",
       "source": {
         "name": "Hollow Knight Wiki: Pharloom",
@@ -562,24 +605,25 @@
       }
     },
     {
-      "id": "bone_bottom",
-      "name": "Bone Bottom & Wormways",
+      "id": "moss_grotto",
+      "name": "Moss Grotto & Bone Bottom",
       "image": {
-        "width": 787,
-        "height": 650
+        "width": 969,
+        "height": 677
       },
       "tileSize": 256,
       "minZoom": 0,
       "maxZoom": 2,
       "tiles": {
-        "archive": "out/bone_bottom-tiles.zip",
-        "archiveBytes": 335979,
-        "path": "{z}/{x}/{y}.png"
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/silksong-v0.6.0/moss_grotto-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 213250
       },
-      "markers": "markers/bone_bottom.json",
+      "markers": "markers/moss_grotto.json",
+      "wiki": "Moss Grotto",
       "initialView": {
-        "x": 393,
-        "y": 325,
+        "x": 600,
+        "y": 420,
         "zoom": 1
       },
       "regions": [
@@ -587,8 +631,8 @@
           "id": "mosshome",
           "name": "Mosshome",
           "wiki": "Mosshome",
-          "x": 629,
-          "y": 218,
+          "x": 801,
+          "y": 230,
           "description": "Mosshome is a ruined settlement above the town of Bone Bottom. It is built around the burial spire of a Weaver who warded and healed its inhabitants with her thread, earning their reverence. This Weaver may be Camora, Weaver of healing, as an effigy to her can be found near Mosshome.\n\nWhat's here\nItems: Silkspear; Druid's Eye given by Moss Druid after completing the Berry Picking wish; Druid's Eyes given by Moss Druid after bringing them 4 additional Mossberries; Frayed Rosary String; Mossberry; Mossberry Stew given by Moss Druid during the Great Taste of Pharloom wish\nNPCs: Moss Druid; Garmond and Zaza (Act 3 only)",
           "source": {
             "name": "Hollow Knight Wiki: Bone Bottom (Mosshome)",
@@ -600,8 +644,8 @@
           "id": "bone_bottom",
           "name": "Bone Bottom",
           "wiki": "Bone Bottom",
-          "x": 599,
-          "y": 481,
+          "x": 770,
+          "y": 499,
           "description": "Bone Bottom is a small town that leads to the Marrow. It is inhabited by pilgrims, whose objective is to reach the Citadel. It is composed of tents and bone pieces.\n\nWhat's here\nItems: Spool Fragment; Memory Locket given for completing the Volatile Flintbeetles wish; Rosary Necklace given for completing the Garb of the Pilgrims wish; Heavy Rosary Necklace given for completing the The Terrible Tyrant wish; Hornet Statuette given by Flick the Fixer after completing the An Icon of Hope wish; Weaver Effigy; Choral Commandment; Mossberry; Maiden's Soul given by Chapel Maid during the Silk and Soul wish\nNPCs: Pebb; Shakra; Flick the Fixer; Chapel Maid; Pilby; Fearful Pilgrim; Horned Pilgrim; Quiet Pilgrim; Solemn Pilgrim; Courier Tipp (during the My Missing Courier wish); Mister Mushroom (Act 3 only)\nBosses: Skull Tyrant (after defeating Skull Tyrant in the Marrow)",
           "source": {
             "name": "Hollow Knight Wiki: Bone Bottom",
@@ -613,8 +657,8 @@
           "id": "bonegrave",
           "name": "Bonegrave",
           "wiki": "Bonegrave",
-          "x": 98,
-          "y": 494,
+          "x": 249,
+          "y": 512,
           "description": "Bonegrave is a vast graveyard beyond the Ruined Chapel, where fallen pilgrims are buried. It can be accessed from the Wormways after opening the Simple Key door, or from above the Ruined Chapel with Cling Grip.\n\nWhat's here\nItems: Mossberry; Plasmium Cocoon Act 3 only; containing 2 Winged Lifeseeds\nNPCs: Sula\nBosses: Summoned Saviour",
           "source": {
             "name": "Hollow Knight Wiki: Bone Bottom (Bonegrave)",
@@ -626,8 +670,8 @@
           "id": "moss_grotto",
           "name": "Moss Grotto",
           "wiki": "Moss Grotto",
-          "x": 303,
-          "y": 528,
+          "x": 462,
+          "y": 547,
           "description": "Moss Grotto is a lush, verdant cave overgrown with plant life. Relatively secluded from the rest of the lowlands, it is covered in vivid lime-green moss and plants, with pools of clear water. A large pit in the Grotto's rough centre extends up into the enormous cavern that houses Bone Bottom, continuing past it all the way to the top of the Blasted Steps. To the left of this pit, the flora and fauna are more prominent, while to the right, the moss gives way to the foundation of bone and rock underneath.\n\nWhat's here\nItems: Frayed Rosary String; Beast Shard dropped from Marrowmaw; Mossberry\nBosses: Moss Mother (Act 3 only)",
           "source": {
             "name": "Hollow Knight Wiki: Moss Grotto",
@@ -635,7 +679,42 @@
             "license": "CC BY-SA 3.0"
           }
         }
-      ]
+      ],
+      "description": "The Moss Grotto is the starting area of Hollow Knight: Silksong. Located in the lowlands of Pharloom, it is a secluded, sparsely populated but largely benign cave overtaken by moss. It is part of the Mosslands alongside Bone Bottom.",
+      "source": {
+        "name": "Hollow Knight Wiki: Moss Grotto",
+        "url": "https://hollowknight.wiki/w/Moss_Grotto",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "the_marrow",
+      "name": "The Marrow",
+      "image": {
+        "width": 891,
+        "height": 431
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 2,
+      "tiles": {
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/silksong-v0.6.0/the_marrow-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 160323
+      },
+      "markers": "markers/the_marrow.json",
+      "wiki": "The Marrow",
+      "initialView": {
+        "x": 445,
+        "y": 160,
+        "zoom": 1
+      },
+      "description": "The Marrow is an area in Hollow Knight: Silksong. Its now-crumbling roads are built upon the bones of ancient bugs long gone.",
+      "source": {
+        "name": "Hollow Knight Wiki: The Marrow",
+        "url": "https://hollowknight.wiki/w/The_Marrow",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }
