@@ -1,0 +1,97 @@
+[
+  {
+    "id": "area_mosshome",
+    "name": "Mosshome",
+    "category": "area",
+    "x": 629,
+    "y": 218,
+    "trackable": false
+  },
+  {
+    "id": "area_bone_bottom",
+    "name": "Bone Bottom",
+    "category": "area",
+    "x": 599,
+    "y": 481,
+    "trackable": false
+  },
+  {
+    "id": "area_bonegrave",
+    "name": "Bonegrave",
+    "category": "area",
+    "x": 98,
+    "y": 494,
+    "trackable": false
+  },
+  {
+    "id": "area_moss_grotto",
+    "name": "Moss Grotto",
+    "category": "area",
+    "x": 303,
+    "y": 528,
+    "trackable": false
+  },
+  {
+    "id": "bench_bb_1",
+    "name": "Bench",
+    "category": "bench",
+    "x": 121,
+    "y": 211,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  },
+  {
+    "id": "bench_bb_2",
+    "name": "Bench",
+    "category": "bench",
+    "x": 531,
+    "y": 116,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  },
+  {
+    "id": "bench_bb_3",
+    "name": "Bench",
+    "category": "bench",
+    "x": 727,
+    "y": 292,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  },
+  {
+    "id": "bench_bb_4",
+    "name": "Bench",
+    "category": "bench",
+    "x": 682,
+    "y": 347,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  },
+  {
+    "id": "bench_bb_5",
+    "name": "Bench",
+    "category": "bench",
+    "x": 297,
+    "y": 500,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  },
+  {
+    "id": "bench_bb_6",
+    "name": "Bench",
+    "category": "bench",
+    "x": 392,
+    "y": 519,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  },
+  {
+    "id": "bellway_bone_bottom",
+    "name": "Bone Bottom Bellway",
+    "category": "bellway",
+    "x": 585,
+    "y": 444,
+    "description": "Placed from the in-game map pin.",
+    "trackable": false
+  }
+]

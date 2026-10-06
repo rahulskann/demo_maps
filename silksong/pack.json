@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "rahulskann.silksong",
+  "name": "Silksong Atlas",
+  "game": "Hollow Knight: Silksong",
+  "author": "rahulskann",
+  "version": "0.1.0",
+  "description": "Unofficial fan-made map of Pharloom. Map art by Team Cherry; see README.",
+  "categoryGroups": [
+    {
+      "id": "places",
+      "name": "Places"
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation"
+    },
+    {
+      "id": "upgrades",
+      "name": "Upgrades"
+    },
+    {
+      "id": "collectibles",
+      "name": "Collectibles"
+    }
+  ],
+  "categories": [
+    {
+      "id": "region",
+      "name": "Regions",
+      "group": "places",
+      "color": "#B9A8E0",
+      "icon": "map"
+    },
+    {
+      "id": "area",
+      "name": "Areas",
+      "group": "places",
+      "color": "#9CC79A",
+      "icon": "flag"
+    },
+    {
+      "id": "bench",
+      "name": "Benches",
+      "group": "navigation",
+      "color": "#C0504D",
+      "icon": "bench"
+    },
+    {
+      "id": "bellway",
+      "name": "Bellways",
+      "group": "navigation",
+      "color": "#E6E6E6",
+      "icon": "travel"
+    },
+    {
+      "id": "mask_shard",
+      "name": "Mask Shards",
+      "group": "upgrades",
+      "color": "#F2F2F7",
+      "icon": "heart"
+    },
+    {
+      "id": "spool_fragment",
+      "name": "Spool Fragments",
+      "group": "upgrades",
+      "color": "#E05A6A",
+      "icon": "star"
+    },
+    {
+      "id": "crest",
+      "name": "Crests",
+      "group": "upgrades",
+      "color": "#D9B44A",
+      "icon": "shield"
+    },
+    {
+      "id": "tool",
+      "name": "Tools",
+      "group": "upgrades",
+      "color": "#7FB2F0",
+      "icon": "tool"
+    },
+    {
+      "id": "craftmetal",
+      "name": "Craftmetal",
+      "group": "collectibles",
+      "color": "#A7B0BA",
+      "icon": "gem"
+    },
+    {
+      "id": "memory_locket",
+      "name": "Memory Lockets",
+      "group": "collectibles",
+      "color": "#E8B04A",
+      "icon": "key"
+    },
+    {
+      "id": "lost_flea",
+      "name": "Lost Fleas",
+      "group": "collectibles",
+      "color": "#8FD19E",
+      "icon": "bug"
+    }
+  ],
+  "maps": [
+    {
+      "id": "world",
+      "name": "Pharloom",
+      "image": {
+        "width": 1300,
+        "height": 813
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 3,
+      "tiles": {
+        "archive": "out/world-tiles.zip",
+        "archiveBytes": 1239511,
+        "path": "{z}/{x}/{y}.png"
+      },
+      "markers": "markers/world.json",
+      "initialView": {
+        "x": 650,
+        "y": 406,
+        "zoom": 1
+      }
+    },
+    {
+      "id": "bone_bottom",
+      "name": "Bone Bottom & Moss Grotto",
+      "image": {
+        "width": 787,
+        "height": 650
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 2,
+      "tiles": {
+        "archive": "out/bone_bottom-tiles.zip",
+        "archiveBytes": 335979,
+        "path": "{z}/{x}/{y}.png"
+      },
+      "markers": "markers/bone_bottom.json",
+      "initialView": {
+        "x": 393,
+        "y": 325,
+        "zoom": 1
+      }
+    }
+  ]
+}
