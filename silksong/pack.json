@@ -4,7 +4,7 @@
   "name": "Silksong Atlas",
   "game": "Hollow Knight: Silksong",
   "author": "rahulskann",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Unofficial fan-made map of Pharloom. Map art by Team Cherry; see README.",
   "wiki": "https://hollowknight.wiki/w/",
   "categoryGroups": [
@@ -46,7 +46,13 @@
       "group": "navigation",
       "color": "#C0504D",
       "icon": "bench",
-      "wiki": "Bench (Silksong)"
+      "wiki": "Bench (Silksong)",
+      "description": "Benches are save points throughout Pharloom that Hornet can rest on to automatically:\n• Save the game\n• Respawn on the Bench after quitting the game or dying\n• Replenish all health\n• Replenish Silk slowly if Sylphsong has been acquired\n• Replenish equipped Red Tools by spending Shell Shards\n• Replenish equipped Blue Tools\n• Remove Muckmaggot infestation, Plasmium Masks and plasmification\n• Update the Map with newly-explored rooms (if a Quill has been acquired)\n• Respawn defeated enemies (excluding enemies in the current room)\n• Respawn broken Plasmium Cocoons\n• Refill depleted Silk Spindles\n• Have a 30% chance of triggering the Skull Tyrant in Bone Bottom\n• Have a 20–50% chance of triggering the Craw Summons during Act 3\n\nHornet can also perform special actions in the INVENTORY menu while resting on a Bench:\n• Change Crests\n• Equip or unequip Tools\n• Reload the Rosary Cannon by spending Rosaries\n• Toggle the Voltvessels between Spear and Bola forms",
+      "source": {
+        "name": "Hollow Knight Wiki: Bench (Silksong)",
+        "url": "https://hollowknight.wiki/w/Bench_(Silksong)",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "bellway",
@@ -54,7 +60,13 @@
       "group": "navigation",
       "color": "#E6E6E6",
       "icon": "travel",
-      "wiki": "Fast Travel (Silksong)"
+      "wiki": "Fast Travel (Silksong)",
+      "description": "Fast Travel refers to methods of instantly travelling directly from one area to another. Throughout the game, Hornet encounters three main methods of fast travel: Bellways, Ventrica, and the Beastling Call.",
+      "source": {
+        "name": "Hollow Knight Wiki: Fast Travel (Silksong)",
+        "url": "https://hollowknight.wiki/w/Fast_Travel_(Silksong)",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "mask_shard",
@@ -62,7 +74,13 @@
       "group": "upgrades",
       "color": "#F2F2F7",
       "icon": "heart",
-      "wiki": "Mask Shard (Silksong)"
+      "wiki": "Mask Shard (Silksong)",
+      "description": "Mask Shards are Items in Hollow Knight: Silksong that are used to increase Hornet's Health.",
+      "source": {
+        "name": "Hollow Knight Wiki: Mask Shard (Silksong)",
+        "url": "https://hollowknight.wiki/w/Mask_Shard_(Silksong)",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "spool_fragment",
@@ -70,7 +88,13 @@
       "group": "upgrades",
       "color": "#E05A6A",
       "icon": "star",
-      "wiki": "Spool Fragment"
+      "wiki": "Spool Fragment",
+      "description": "Spool Fragments are Items in Hollow Knight: Silksong that are used to increase Hornet's Silk capacity.\n\n__TOC__",
+      "source": {
+        "name": "Hollow Knight Wiki: Spool Fragment",
+        "url": "https://hollowknight.wiki/w/Spool_Fragment",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "crest",
@@ -78,7 +102,13 @@
       "group": "upgrades",
       "color": "#D9B44A",
       "icon": "shield",
-      "wiki": "Crests"
+      "wiki": "Crests",
+      "description": "__NOTOC__\n\nCrests are a special type of collectible in Hollow Knight: Silksong that allow Hornet to use different Needle attacks and equip different Tools.",
+      "source": {
+        "name": "Hollow Knight Wiki: Crests",
+        "url": "https://hollowknight.wiki/w/Crests",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "tool",
@@ -86,7 +116,13 @@
       "group": "upgrades",
       "color": "#7FB2F0",
       "icon": "tool",
-      "wiki": "Tools"
+      "wiki": "Tools",
+      "description": "Tools are equippable items in Hollow Knight: Silksong that give Hornet access to up to 53 additional weapons and abilities. There are three categories of Tools, each identified by a colour-coded symbol:\n\nRed Tools are active offensive tools that act as limited-use consumables. They are refilled by sitting on a Bench, usually at the cost of Shell Shards Shell Shards.\n\nBlue Tools offer passive effects related to combat and survivability. No Shell Shard cost.\n\nYellow Tools offer passive effects that usually speed up exploration or resource gathering. No Shell Shard cost.\n\nDepending on the Crest used, different numbers of each coloured Tool can be equipped. Additional Tool slots can be unlocked on each Crest by using Memory Lockets. The Vesticrest can be used to provide Tool slots that are available independent of the equipped Crest.\n\nFor a list of Tool damage values, see the relevant section of the Damage Values page.",
+      "source": {
+        "name": "Hollow Knight Wiki: Tools",
+        "url": "https://hollowknight.wiki/w/Tools",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "craftmetal",
@@ -94,7 +130,13 @@
       "group": "collectibles",
       "color": "#A7B0BA",
       "icon": "gem",
-      "wiki": "Craftmetal"
+      "wiki": "Craftmetal",
+      "description": "Craftmetals are tradable items in Hollow Knight: Silksong. They are rare materials found throughout Pharloom that can be used to craft various Tools.",
+      "source": {
+        "name": "Hollow Knight Wiki: Craftmetal",
+        "url": "https://hollowknight.wiki/w/Craftmetal",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "memory_locket",
@@ -102,7 +144,13 @@
       "group": "collectibles",
       "color": "#E8B04A",
       "icon": "key",
-      "wiki": "Memory Locket"
+      "wiki": "Memory Locket",
+      "description": "Memory Lockets are Items used to expand the capabilities of Crests. Each Crest starts with a different number of locked slots for Red ToolsRed, Blue ToolsBlue, and Yellow ToolsYellow Tools, which can be unlocked by using Memory Lockets in the Crest menu. This can be done even if Hornet is not sitting at a bench.",
+      "source": {
+        "name": "Hollow Knight Wiki: Memory Locket",
+        "url": "https://hollowknight.wiki/w/Memory_Locket",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "lost_flea",
@@ -110,7 +158,13 @@
       "group": "collectibles",
       "color": "#8FD19E",
       "icon": "bug",
-      "wiki": "Flea"
+      "wiki": "Flea",
+      "description": "Fleas are winged, furry bugs scattered throughout most of Pharloom. They can be found caged, stuck, or resting in precarious locations.",
+      "source": {
+        "name": "Hollow Knight Wiki: Flea",
+        "url": "https://hollowknight.wiki/w/Flea",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ],
   "maps": [
