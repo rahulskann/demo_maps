@@ -4,7 +4,7 @@
   "name": "Silksong Atlas",
   "game": "Hollow Knight: Silksong",
   "author": "rahulskann",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Unofficial fan-made map of Pharloom. Map art by Team Cherry; see README.",
   "wiki": "https://hollowknight.wiki/w/",
   "categoryGroups": [
@@ -134,11 +134,115 @@
         "x": 650,
         "y": 406,
         "zoom": 1
-      }
+      },
+      "regions": [
+        {
+          "id": "bone_bottom",
+          "name": "Bone Bottom",
+          "map": "bone_bottom",
+          "outline": [
+            [
+              239,
+              524
+            ],
+            [
+              361,
+              524
+            ],
+            [
+              361,
+              556
+            ],
+            [
+              330,
+              557
+            ],
+            [
+              330,
+              641
+            ],
+            [
+              274,
+              641
+            ],
+            [
+              274,
+              687
+            ],
+            [
+              142,
+              687
+            ],
+            [
+              142,
+              642
+            ],
+            [
+              67,
+              642
+            ],
+            [
+              67,
+              632
+            ],
+            [
+              115,
+              597
+            ],
+            [
+              239,
+              597
+            ]
+          ],
+          "target": {
+            "x": 20,
+            "y": 60,
+            "width": 740,
+            "height": 590
+          }
+        },
+        {
+          "id": "wormways",
+          "name": "Wormways",
+          "map": "bone_bottom",
+          "outline": [
+            [
+              9,
+              547
+            ],
+            [
+              117,
+              547
+            ],
+            [
+              145,
+              524
+            ],
+            [
+              231,
+              524
+            ],
+            [
+              231,
+              592
+            ],
+            [
+              9,
+              592
+            ]
+          ],
+          "target": {
+            "x": 0,
+            "y": 165,
+            "width": 440,
+            "height": 235
+          }
+        }
+      ]
     },
     {
       "id": "bone_bottom",
-      "name": "Bone Bottom & Moss Grotto",
+      "name": "Bone Bottom & Wormways",
       "image": {
         "width": 787,
         "height": 650

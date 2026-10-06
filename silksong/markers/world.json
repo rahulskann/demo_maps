@@ -141,7 +141,8 @@
     "x": 122,
     "y": 544,
     "trackable": false,
-    "wiki": "Wormways"
+    "wiki": "Wormways",
+    "map": "bone_bottom"
   },
   {
     "id": "region_far_fields",
@@ -159,7 +160,8 @@
     "x": 203,
     "y": 596,
     "trackable": false,
-    "wiki": "Bone Bottom"
+    "wiki": "Bone Bottom",
+    "map": "bone_bottom"
   },
   {
     "id": "region_the_marrow",
