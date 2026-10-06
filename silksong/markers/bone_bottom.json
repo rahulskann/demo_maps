@@ -5,7 +5,8 @@
     "category": "area",
     "x": 629,
     "y": 218,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Mosshome"
   },
   {
     "id": "area_bone_bottom",
@@ -13,7 +14,8 @@
     "category": "area",
     "x": 599,
     "y": 481,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Bone Bottom"
   },
   {
     "id": "area_bonegrave",
@@ -21,7 +23,8 @@
     "category": "area",
     "x": 98,
     "y": 494,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Bonegrave"
   },
   {
     "id": "area_moss_grotto",
@@ -29,7 +32,8 @@
     "category": "area",
     "x": 303,
     "y": 528,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Moss Grotto"
   },
   {
     "id": "bench_bb_1",

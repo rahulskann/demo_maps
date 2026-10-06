@@ -5,7 +5,8 @@
     "category": "region",
     "x": 653,
     "y": 21,
-    "trackable": false
+    "trackable": false,
+    "wiki": "The Cradle"
   },
   {
     "id": "region_mount_fay",
@@ -13,7 +14,8 @@
     "category": "region",
     "x": 215,
     "y": 151,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Mount Fay"
   },
   {
     "id": "region_the_slab",
@@ -21,7 +23,8 @@
     "category": "region",
     "x": 365,
     "y": 176,
-    "trackable": false
+    "trackable": false,
+    "wiki": "The Slab"
   },
   {
     "id": "region_the_citadel",
@@ -29,7 +32,8 @@
     "category": "region",
     "x": 653,
     "y": 149,
-    "trackable": false
+    "trackable": false,
+    "wiki": "The Citadel"
   },
   {
     "id": "region_putrified_ducts",
@@ -37,7 +41,8 @@
     "category": "region",
     "x": 1010,
     "y": 141,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Putrified Ducts"
   },
   {
     "id": "region_bilewater",
@@ -45,7 +50,8 @@
     "category": "region",
     "x": 1023,
     "y": 251,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Bilewater"
   },
   {
     "id": "region_sands_of_karak",
@@ -53,7 +59,8 @@
     "category": "region",
     "x": 222,
     "y": 283,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Sands of Karak"
   },
   {
     "id": "region_underworks",
@@ -61,7 +68,8 @@
     "category": "region",
     "x": 656,
     "y": 301,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Underworks"
   },
   {
     "id": "region_blasted_steps",
@@ -69,7 +77,8 @@
     "category": "region",
     "x": 222,
     "y": 361,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Blasted Steps"
   },
   {
     "id": "region_sinner_s_road",
@@ -77,7 +86,8 @@
     "category": "region",
     "x": 873,
     "y": 385,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Sinner's Road"
   },
   {
     "id": "region_verdania",
@@ -85,7 +95,8 @@
     "category": "region",
     "x": 1150,
     "y": 422,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Verdania"
   },
   {
     "id": "region_greymoor",
@@ -93,7 +104,8 @@
     "category": "region",
     "x": 834,
     "y": 439,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Greymoor"
   },
   {
     "id": "region_shellwood",
@@ -101,7 +113,8 @@
     "category": "region",
     "x": 383,
     "y": 445,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Shellwood"
   },
   {
     "id": "region_bellhart",
@@ -109,7 +122,8 @@
     "category": "region",
     "x": 569,
     "y": 473,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Bellhart"
   },
   {
     "id": "region_hunter_s_march",
@@ -117,7 +131,8 @@
     "category": "region",
     "x": 714,
     "y": 529,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Hunter's March"
   },
   {
     "id": "region_wormways",
@@ -125,7 +140,8 @@
     "category": "region",
     "x": 122,
     "y": 544,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Wormways"
   },
   {
     "id": "region_far_fields",
@@ -133,7 +149,8 @@
     "category": "region",
     "x": 913,
     "y": 584,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Far Fields"
   },
   {
     "id": "region_bone_bottom",
@@ -141,7 +158,8 @@
     "category": "region",
     "x": 203,
     "y": 596,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Bone Bottom"
   },
   {
     "id": "region_the_marrow",
@@ -149,7 +167,8 @@
     "category": "region",
     "x": 446,
     "y": 594,
-    "trackable": false
+    "trackable": false,
+    "wiki": "The Marrow"
   },
   {
     "id": "region_deep_docks",
@@ -157,7 +176,8 @@
     "category": "region",
     "x": 730,
     "y": 644,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Deep Docks"
   },
   {
     "id": "region_weavenest_atla",
@@ -165,7 +185,8 @@
     "category": "region",
     "x": 376,
     "y": 655,
-    "trackable": false
+    "trackable": false,
+    "wiki": "Weavenest Atla"
   },
   {
     "id": "region_the_abyss",
@@ -173,6 +194,7 @@
     "category": "region",
     "x": 653,
     "y": 733,
-    "trackable": false
+    "trackable": false,
+    "wiki": "The Abyss"
   }
 ]

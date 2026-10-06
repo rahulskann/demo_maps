@@ -4,8 +4,9 @@
   "name": "Silksong Atlas",
   "game": "Hollow Knight: Silksong",
   "author": "rahulskann",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Unofficial fan-made map of Pharloom. Map art by Team Cherry; see README.",
+  "wiki": "https://hollowknight.wiki/w/",
   "categoryGroups": [
     {
       "id": "places",
@@ -44,63 +45,72 @@
       "name": "Benches",
       "group": "navigation",
       "color": "#C0504D",
-      "icon": "bench"
+      "icon": "bench",
+      "wiki": "Bench (Silksong)"
     },
     {
       "id": "bellway",
       "name": "Bellways",
       "group": "navigation",
       "color": "#E6E6E6",
-      "icon": "travel"
+      "icon": "travel",
+      "wiki": "Fast Travel (Silksong)"
     },
     {
       "id": "mask_shard",
       "name": "Mask Shards",
       "group": "upgrades",
       "color": "#F2F2F7",
-      "icon": "heart"
+      "icon": "heart",
+      "wiki": "Mask Shard (Silksong)"
     },
     {
       "id": "spool_fragment",
       "name": "Spool Fragments",
       "group": "upgrades",
       "color": "#E05A6A",
-      "icon": "star"
+      "icon": "star",
+      "wiki": "Spool Fragment"
     },
     {
       "id": "crest",
       "name": "Crests",
       "group": "upgrades",
       "color": "#D9B44A",
-      "icon": "shield"
+      "icon": "shield",
+      "wiki": "Crests"
     },
     {
       "id": "tool",
       "name": "Tools",
       "group": "upgrades",
       "color": "#7FB2F0",
-      "icon": "tool"
+      "icon": "tool",
+      "wiki": "Tools"
     },
     {
       "id": "craftmetal",
       "name": "Craftmetal",
       "group": "collectibles",
       "color": "#A7B0BA",
-      "icon": "gem"
+      "icon": "gem",
+      "wiki": "Craftmetal"
     },
     {
       "id": "memory_locket",
       "name": "Memory Lockets",
       "group": "collectibles",
       "color": "#E8B04A",
-      "icon": "key"
+      "icon": "key",
+      "wiki": "Memory Locket"
     },
     {
       "id": "lost_flea",
       "name": "Lost Fleas",
       "group": "collectibles",
       "color": "#8FD19E",
-      "icon": "bug"
+      "icon": "bug",
+      "wiki": "Flea"
     }
   ],
   "maps": [
