@@ -1,8 +1,9 @@
 """Fill Silksong Atlas notes from the Hollow Knight Wiki (CC BY-SA 3.0), with credit.
 
 - Categories with a `wiki` page get a general description ("About Benches").
-- Region and area markers get the area's description plus a "What's here"
-  summary of items, NPCs and bosses.
+- Maps with a `wiki` page get its introduction as their description.
+- Regions and areas (each map's `regions`) get the area's description plus a
+  "What's here" summary of items, NPCs and bosses.
 
 Only fills text that is empty or was previously filled from the wiki (its
 `source` names the wiki), so notes written by hand are never overwritten.
@@ -102,29 +103,34 @@ def main() -> None:
             print(f"category {cat['id']}: {len(about)} chars from {title}")
 
     for m in pack["maps"]:
-        markers_path = PACK / (m.get("markers") or f"markers/{m['id']}.json")
-        markers = json.loads(markers_path.read_text(encoding="utf-8"))
-        for marker in markers:
-            if marker.get("category") not in ("region", "area") or not ours_to_fill(marker):
+        if m.get("wiki") and ours_to_fill(m):
+            title, wikitext = page_wikitext(API, m["wiki"], prefer=GAME)
+            lead = paragraphs(to_plain(sections(wikitext)[""]))
+            if lead:
+                m["description"] = lead[0]
+                m["source"] = source(title, base_url)
+                changed += 1
+                print(f"map {m['id']}: {len(lead[0])} chars from {title}")
+
+        for region in m.get("regions", []):
+            if not ours_to_fill(region):
                 continue
-            page, section = SUB_AREAS.get(marker["name"], (marker.get("wiki") or marker["name"], None))
+            page, section = SUB_AREAS.get(region["name"], (region.get("wiki") or region["name"], None))
             try:
                 title, text, used = area_text(page, section)
             except RuntimeError as e:
-                print(f"  skipped {marker['id']}: {e}")
+                print(f"  skipped {region['id']}: {e}")
                 continue
             if not text:
-                print(f"  no text for {marker['id']}")
+                print(f"  no text for {region['id']}")
                 continue
-            marker["description"] = text
-            marker["source"] = source(title, base_url, used)
-            if not section and marker.get("wiki") and marker["wiki"] != title:
-                print(f"  {marker['id']}: wiki link {marker['wiki']!r} -> {title!r}")
-                marker["wiki"] = title  # e.g. a disambiguation page resolved to the Silksong one
+            region["description"] = text
+            region["source"] = source(title, base_url, used)
+            if not section and region.get("wiki") and region["wiki"] != title:
+                print(f"  {region['id']}: wiki link {region['wiki']!r} -> {title!r}")
+                region["wiki"] = title  # e.g. a disambiguation page resolved to the Silksong one
             changed += 1
-            print(f"{m['id']}/{marker['id']}: {len(text)} chars from {title} {used}".rstrip())
-        markers_path.write_text(json.dumps(markers, indent=2, ensure_ascii=False) + "\n",
-                                encoding="utf-8", newline="\n")
+            print(f"{m['id']}/{region['id']}: {len(text)} chars from {title} {used}".rstrip())
 
     pack_path.write_text(json.dumps(pack, indent=2, ensure_ascii=False) + "\n",
                          encoding="utf-8", newline="\n")
