@@ -13,10 +13,11 @@ An unofficial, fan-made map pack for **Hollow Knight: Silksong**, for the
 
 | Map | Image | Notes |
 | --- | --- | --- |
-| Pharloom | `source/Silksong_start.png` | Region overview. Tap Bone Bottom or The Marrow (or zoom in on them) to open their detailed maps. All 22 regions are listed in the ⓘ info sheet. |
-| Pharloom (detailed) | `source/Silksong_end.png` | The whole world in detail, zooming from overview to rooms. Open from the map menu. |
-| Moss Grotto & Bone Bottom | `source/moss-grotto.png` | Detailed region map, with benches and the Bellway. |
-| The Marrow | `source/the-marrow.png` | Detailed region map. |
+| Pharloom | `source/Silksong_start.png` | Region overview. Zoom in anywhere to continue on the detailed map; all 22 regions are listed in the ⓘ info sheet. |
+| Pharloom (detailed) | `source/Silksong_end.png` | The whole world in detail, from regions down to rooms, with all markers. Zoom out to return to the overview. |
+
+`source/moss-grotto.png` and `source/the-marrow.png` are earlier region close-ups, kept for
+reference; marker positions measured on them were converted onto the detailed map.
 
 Marker types: benches, Bellways, Mask Shards, Spool Fragments, Crests, Tools, Craftmetal,
 Memory Lockets, Lost Fleas. Many are still empty; add them in TOME's edit mode and send a
@@ -49,8 +50,6 @@ Tiles are built from `source/` with TOME's slicer into `out/` (not committed):
 
     python ../../TOME/tools/slicer/slice_map.py source/Silksong_start.png out --map-id world --zip
     python ../../TOME/tools/slicer/slice_map.py source/Silksong_end.png out --map-id pharloom_detailed --zip
-    python ../../TOME/tools/slicer/slice_map.py source/moss-grotto.png out --map-id moss_grotto --zip
-    python ../../TOME/tools/slicer/slice_map.py source/the-marrow.png out --map-id the_marrow --zip
 
 Then publish (see the [main README](../README.md#6-publish)):
 
