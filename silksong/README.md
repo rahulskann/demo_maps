@@ -16,13 +16,14 @@ An unofficial, fan-made map pack for **Hollow Knight: Silksong**, for the
 | Pharloom | `source/Silksong_start.png` | Region overview. Zoom in anywhere to continue on the detailed map; all 22 regions are listed in the ⓘ info sheet. |
 | Pharloom (regions) | `layout.json` → clean region images | Detailed region art placed on one canvas so neighbours line up. So far: Moss Grotto (with Bone Bottom, Mosshome, Bonegrave) and The Marrow. Zoom into those regions on the overview to get here; zoom out to return. |
 
-`source/Silksong_end.png` is a full community map used only as a measuring reference to
-place region images (it is not turned into tiles).
+Region images are placed by aligning them to a full community map that's kept locally
+(`../_local/reference/Silksong_end.png`, not published), purely as a measuring reference.
 
 ### Adding a region
 
 1. Add a clean image of the region to `source/` (transparent background preferred).
-2. Find its position on the canvas: canvas pixels are `Silksong_end.png` pixels ÷ 1.845.
+2. Find its position on the canvas: canvas pixels are reference-map pixels ÷ 1.845
+   (align the image to the reference map, or to a neighbouring region already on the canvas).
 3. Add it to `layout.json`, and its overview region id to `zoomsInto.regions` in `pack.json`
    (the region needs an `outline` on the overview).
 4. Rebuild: compose, slice, bump `version`.
