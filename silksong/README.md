@@ -14,10 +14,18 @@ An unofficial, fan-made map pack for **Hollow Knight: Silksong**, for the
 | Map | Image | Notes |
 | --- | --- | --- |
 | Pharloom | `source/Silksong_start.png` | Region overview. Zoom in anywhere to continue on the detailed map; all 22 regions are listed in the ⓘ info sheet. |
-| Pharloom (detailed) | `source/Silksong_end.png` | The whole world in detail, from regions down to rooms, with all markers. Zoom out to return to the overview. |
+| Pharloom (regions) | `layout.json` → clean region images | Detailed region art placed on one canvas so neighbours line up. So far: Moss Grotto (with Bone Bottom, Mosshome, Bonegrave) and The Marrow. Zoom into those regions on the overview to get here; zoom out to return. |
 
-`source/moss-grotto.png` and `source/the-marrow.png` are earlier region close-ups, kept for
-reference; marker positions measured on them were converted onto the detailed map.
+`source/Silksong_end.png` is a full community map used only as a measuring reference to
+place region images (it is not turned into tiles).
+
+### Adding a region
+
+1. Add a clean image of the region to `source/` (transparent background preferred).
+2. Find its position on the canvas: canvas pixels are `Silksong_end.png` pixels ÷ 1.845.
+3. Add it to `layout.json`, and its overview region id to `zoomsInto.regions` in `pack.json`
+   (the region needs an `outline` on the overview).
+4. Rebuild: compose, slice, bump `version`.
 
 Marker types: benches, Bellways, Mask Shards, Spool Fragments, Crests, Tools, Craftmetal,
 Memory Lockets, Lost Fleas. Many are still empty; add them in TOME's edit mode and send a
@@ -49,7 +57,8 @@ are left alone. Review with `git diff`.
 Tiles are built from `source/` with TOME's slicer into `out/` (not committed):
 
     python ../../TOME/tools/slicer/slice_map.py source/Silksong_start.png out --map-id world --zip
-    python ../../TOME/tools/slicer/slice_map.py source/Silksong_end.png out --map-id pharloom_detailed --zip
+    python ../../TOME/tools/compose_map.py layout.json out/pharloom_regions.png
+    python ../../TOME/tools/slicer/slice_map.py out/pharloom_regions.png out --map-id pharloom --zip
 
 Then publish (see the [main README](../README.md#6-publish)):
 

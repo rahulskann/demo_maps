@@ -1,0 +1,8 @@
+{
+  "note": "Clean region images on one canvas. Canvas = the full Silksong map at region-image scale (1/1.845); positions measured by aligning each image to source/Silksong_end.png, which is only a measuring reference and is not published as tiles. Keep the size fixed so marker positions never move.",
+  "size": [4163, 2914],
+  "images": [
+    {"file": "source/moss-grotto.png", "x": 217, "y": 1653},
+    {"file": "source/the-marrow.png", "x": 1053, "y": 1884}
+  ]
+}
