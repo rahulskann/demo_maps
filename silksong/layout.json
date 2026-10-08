@@ -1,8 +1,34 @@
 {
   "note": "Clean region images on one canvas. Canvas = the full Silksong map at region-image scale (1/1.845); positions measured by aligning each image to a full community map kept locally (not published), used only as a measuring reference. Keep the size fixed so marker positions never move.",
-  "size": [4163, 2914],
+  "size": [
+    4163,
+    2914
+  ],
   "images": [
-    {"file": "source/moss-grotto.png", "x": 217, "y": 1653},
-    {"file": "source/the-marrow.png", "x": 1053, "y": 1884}
-  ]
+    {
+      "file": "source/moss-grotto.png",
+      "x": 83,
+      "y": 1667,
+      "width": 969,
+      "height": 677,
+      "group": "A"
+    },
+    {
+      "file": "source/the-marrow.png",
+      "x": 918,
+      "y": 1898,
+      "width": 891,
+      "height": 431,
+      "group": "A"
+    },
+    {
+      "file": "source/wormways-4qij.webp",
+      "x": -94,
+      "y": 1792,
+      "width": 784,
+      "height": 324,
+      "group": "A"
+    }
+  ],
+  "map": "pharloom"
 }
