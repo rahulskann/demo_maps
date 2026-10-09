@@ -1,4 +1,4 @@
-# Silksong Atlas: a TOME map pack
+# Silksong Atlas: a map pack for TOME
 
 An unofficial, fan-made map pack for **Hollow Knight: Silksong**, for the
 [TOME](https://github.com/rahulskann/TOME) offline map app.

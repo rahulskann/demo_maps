@@ -1,7 +1,7 @@
 # demo_maps
 
 Map packs for [TOME](https://github.com/rahulskann/TOME), an offline interactive map app for
-any game. One folder per game. These packs are separate from the TOME repo because they
+any game. One folder per game. These packs are separate from TOME's own repo because they
 contain third-party game art.
 
 | Folder | Game | Add it in TOME |
@@ -15,7 +15,7 @@ To install one: open TOME → **Add pack** → paste the text from the last colu
 ## Make your own map
 
 A pack is a folder with a `pack.json`, one or more map images cut into tiles, and marker
-files. You'll need Python 3 and a copy of the TOME repo for its tools:
+files. You'll need Python 3 and a copy of TOME's repo for its tools:
 
     git clone https://github.com/rahulskann/TOME.git
     cd TOME && python -m venv .venv && .venv/Scripts/pip install -r tools/slicer/requirements.txt
