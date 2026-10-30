@@ -1,0 +1,59 @@
+[
+  {
+    "id": "memorial-union",
+    "name": "Memorial Union",
+    "category": "landmark",
+    "x": 1657,
+    "y": 1803,
+    "description": "Oregon State University's student union, on the quad. The photo is a test image.",
+    "photo": "photos/test.jpg"
+  },
+  {
+    "id": "reser",
+    "name": "Reser Stadium",
+    "category": "landmark",
+    "x": 1597,
+    "y": 1978,
+    "description": "Oregon State's football stadium."
+  },
+  {
+    "id": "courthouse",
+    "name": "Benton County Courthouse",
+    "category": "landmark",
+    "x": 2043,
+    "y": 1791,
+    "description": "A courthouse from the late 1880s, still in use."
+  },
+  {
+    "id": "riverfront",
+    "name": "Riverfront Commemorative Park",
+    "category": "park",
+    "x": 2122,
+    "y": 1870,
+    "description": "Downtown park along the Willamette."
+  },
+  {
+    "id": "avery-park",
+    "name": "Avery Park",
+    "category": "park",
+    "x": 1769,
+    "y": 2174,
+    "description": "Park by the Marys River, with a rose garden."
+  },
+  {
+    "id": "chip-ross",
+    "name": "Chip Ross Park",
+    "category": "park",
+    "x": 1568,
+    "y": 318,
+    "description": "Hilltop park with trails, north of town."
+  },
+  {
+    "id": "bald-hill",
+    "name": "Bald Hill Natural Area",
+    "category": "park",
+    "x": 383,
+    "y": 1677,
+    "description": "Hill with oak savanna and trails, west of town."
+  }
+]

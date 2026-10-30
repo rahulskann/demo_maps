@@ -1,12 +1,13 @@
 # demo_maps
 
 Map packs for [TOME](https://github.com/rahulskann/TOME), an offline interactive map app for
-any game. One folder per game. These packs are separate from TOME's own repo because they
-contain third-party game art.
+any game. One folder per pack. These packs are separate from TOME's own repo because they
+contain third-party art and map data.
 
-| Folder | Game | Add it in TOME |
+| Folder | Maps of | Add it in TOME |
 | --- | --- | --- |
 | [`silksong/`](silksong/) | Hollow Knight: Silksong | `rahulskann/demo_maps/silksong` |
+| [`gps-test/`](gps-test/) | Portland and Bethany, Seattle, Baltimore and Corvallis, for trying **you are here** | `rahulskann/demo_maps/gps-test` |
 
 To install one: open TOME → **Add pack** → paste the text from the last column.
 

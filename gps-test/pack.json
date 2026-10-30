@@ -1,0 +1,4343 @@
+{
+  "schemaVersion": 1,
+  "id": "rahulskann.gps-test",
+  "name": "GPS Test",
+  "game": "Real places",
+  "author": "rahulskann",
+  "version": "1.0.0",
+  "description": "Maps of Portland and Bethany, Seattle, Baltimore and Corvallis, pinned to the Earth. Open one and tap the location button to see where you are, or how far away. Map data © OpenStreetMap contributors.",
+  "categories": [
+    {
+      "id": "landmark",
+      "name": "Landmarks",
+      "color": "#E0A030",
+      "icon": "flag"
+    },
+    {
+      "id": "park",
+      "name": "Parks",
+      "color": "#4C9A52",
+      "icon": "flower"
+    }
+  ],
+  "maps": [
+    {
+      "id": "portland",
+      "name": "Portland and Bethany",
+      "image": {
+        "width": 8157,
+        "height": 5324
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 5,
+      "tiles": {
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/gps-test-v1.0.0/portland-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 12839561
+      },
+      "markers": "markers/portland.json",
+      "initialView": {
+        "x": 5143,
+        "y": 3366,
+        "zoom": 3
+      },
+      "description": "Portland, Oregon, from Bethany and Forest Park in the west to I-205 in the east, and from St. Johns down to Sellwood. Drawn from OpenStreetMap data.",
+      "source": {
+        "name": "OpenStreetMap contributors, drawn from OpenMapTiles via OpenFreeMap",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL"
+      },
+      "geo": {
+        "points": [
+          [
+            0,
+            0,
+            45.6200108,
+            -122.9000187
+          ],
+          [
+            4078,
+            0,
+            45.6200108,
+            -122.7250099
+          ],
+          [
+            8157,
+            0,
+            45.6200108,
+            -122.5499582
+          ],
+          [
+            0,
+            2662,
+            45.5400524,
+            -122.9000187
+          ],
+          [
+            4078,
+            2662,
+            45.5400524,
+            -122.7250099
+          ],
+          [
+            8157,
+            2662,
+            45.5400524,
+            -122.5499582
+          ],
+          [
+            0,
+            5324,
+            45.4599801,
+            -122.9000187
+          ],
+          [
+            4078,
+            5324,
+            45.4599801,
+            -122.7250099
+          ],
+          [
+            8157,
+            5324,
+            45.4599801,
+            -122.5499582
+          ]
+        ]
+      },
+      "regions": [
+        {
+          "id": "alameda",
+          "name": "Alameda",
+          "x": 6141,
+          "y": 2377
+        },
+        {
+          "id": "alberta",
+          "name": "Alberta",
+          "x": 5944,
+          "y": 2027
+        },
+        {
+          "id": "albina",
+          "name": "Albina",
+          "x": 5415,
+          "y": 2443
+        },
+        {
+          "id": "aloha",
+          "name": "Aloha",
+          "x": 768,
+          "y": 4184
+        },
+        {
+          "id": "aloha-town-center",
+          "name": "Aloha Town Center",
+          "x": 760,
+          "y": 4185
+        },
+        {
+          "id": "amberglen",
+          "name": "Amberglen",
+          "x": 408,
+          "y": 3026
+        },
+        {
+          "id": "arbor-lodge",
+          "name": "Arbor Lodge",
+          "x": 4890,
+          "y": 1606
+        },
+        {
+          "id": "arbor-oaks",
+          "name": "Arbor Oaks",
+          "x": 1208,
+          "y": 1752
+        },
+        {
+          "id": "arleta",
+          "name": "Arleta",
+          "x": 7240,
+          "y": 4444
+        },
+        {
+          "id": "arlington-heights",
+          "name": "Arlington Heights",
+          "x": 4412,
+          "y": 3346
+        },
+        {
+          "id": "ashcreek",
+          "name": "Ashcreek",
+          "x": 3883,
+          "y": 5285
+        },
+        {
+          "id": "barnes-heights",
+          "name": "Barnes Heights",
+          "x": 3408,
+          "y": 2920
+        },
+        {
+          "id": "beaumont-wilshire",
+          "name": "Beaumont-Wilshire",
+          "x": 6439,
+          "y": 2318
+        },
+        {
+          "id": "beaver-acres",
+          "name": "Beaver Acres",
+          "x": 1200,
+          "y": 3851
+        },
+        {
+          "id": "beaverton",
+          "name": "Beaverton",
+          "x": 2242,
+          "y": 4420
+        },
+        {
+          "id": "belmont",
+          "name": "Belmont",
+          "x": 6300,
+          "y": 3449
+        },
+        {
+          "id": "bendemeer",
+          "name": "Bendemeer",
+          "x": 216,
+          "y": 1586
+        },
+        {
+          "id": "bethany",
+          "name": "Bethany",
+          "x": 1262,
+          "y": 1931
+        },
+        {
+          "id": "boise",
+          "name": "Boise",
+          "x": 5316,
+          "y": 2326
+        },
+        {
+          "id": "bonny-slope",
+          "name": "Bonny Slope",
+          "x": 2723,
+          "y": 2475
+        },
+        {
+          "id": "brentwood-darlington",
+          "name": "Brentwood-Darlington",
+          "x": 7046,
+          "y": 5034
+        },
+        {
+          "id": "bridgeton",
+          "name": "Bridgeton",
+          "x": 5404,
+          "y": 586
+        },
+        {
+          "id": "bridlemile",
+          "name": "Bridlemile",
+          "x": 4039,
+          "y": 4241
+        },
+        {
+          "id": "brooklyn",
+          "name": "Brooklyn",
+          "x": 5790,
+          "y": 4166
+        },
+        {
+          "id": "buckman",
+          "name": "Buckman",
+          "x": 5780,
+          "y": 3416
+        },
+        {
+          "id": "burlingame",
+          "name": "Burlingame",
+          "x": 5008,
+          "y": 5042
+        },
+        {
+          "id": "capitol-hill",
+          "name": "Capitol Hill",
+          "x": 4717,
+          "y": 5144
+        },
+        {
+          "id": "cathedral-park",
+          "name": "Cathedral Park",
+          "x": 3294,
+          "y": 1078
+        },
+        {
+          "id": "cedar-hills",
+          "name": "Cedar Hills",
+          "x": 2279,
+          "y": 3767
+        },
+        {
+          "id": "cedar-mill",
+          "name": "Cedar Mill",
+          "x": 2076,
+          "y": 3168
+        },
+        {
+          "id": "central-beaverton",
+          "name": "Central Beaverton",
+          "x": 2194,
+          "y": 3947
+        },
+        {
+          "id": "central-eastside",
+          "name": "Central Eastside",
+          "x": 5587,
+          "y": 3480
+        },
+        {
+          "id": "chinatown",
+          "name": "Chinatown",
+          "x": 5256,
+          "y": 3159
+        },
+        {
+          "id": "columbia-way",
+          "name": "Columbia Way",
+          "x": 5988,
+          "y": 177
+        },
+        {
+          "id": "concordia",
+          "name": "Concordia",
+          "x": 6240,
+          "y": 1803
+        },
+        {
+          "id": "corbett",
+          "name": "Corbett",
+          "x": 5225,
+          "y": 4092
+        },
+        {
+          "id": "creston-kenilworth",
+          "name": "Creston-Kenilworth",
+          "x": 6452,
+          "y": 4204
+        },
+        {
+          "id": "cully",
+          "name": "Cully",
+          "x": 6942,
+          "y": 1947
+        },
+        {
+          "id": "denney-whitford-raleigh-west",
+          "name": "Denney Whitford/Raleigh West",
+          "x": 2805,
+          "y": 4766
+        },
+        {
+          "id": "denny-whitford",
+          "name": "Denny Whitford",
+          "x": 2752,
+          "y": 5007
+        },
+        {
+          "id": "downtown",
+          "name": "Downtown",
+          "x": 5126,
+          "y": 3486
+        },
+        {
+          "id": "downtown-beaverton",
+          "name": "Downtown Beaverton",
+          "x": 2200,
+          "y": 4534
+        },
+        {
+          "id": "east-columbia",
+          "name": "East Columbia",
+          "x": 5510,
+          "y": 872
+        },
+        {
+          "id": "eastmoreland",
+          "name": "Eastmoreland",
+          "x": 6271,
+          "y": 4873
+        },
+        {
+          "id": "eliot",
+          "name": "Eliot",
+          "x": 5396,
+          "y": 2623
+        },
+        {
+          "id": "ellsworth",
+          "name": "Ellsworth",
+          "x": 7824,
+          "y": 533
+        },
+        {
+          "id": "ellsworth-springs",
+          "name": "Ellsworth Springs",
+          "x": 7805,
+          "y": 255
+        },
+        {
+          "id": "elmonica",
+          "name": "Elmonica",
+          "x": 1063,
+          "y": 3569
+        },
+        {
+          "id": "errol-heights",
+          "name": "Errol Heights",
+          "x": 6769,
+          "y": 5042
+        },
+        {
+          "id": "evergreen-highlands",
+          "name": "Evergreen Highlands",
+          "x": 6811,
+          "y": 38
+        },
+        {
+          "id": "evergreen-shores",
+          "name": "Evergreen Shores",
+          "x": 6557,
+          "y": 49
+        },
+        {
+          "id": "faloma",
+          "name": "Faloma",
+          "x": 5377,
+          "y": 607
+        },
+        {
+          "id": "father-blanchet-park",
+          "name": "Father Blanchet Park",
+          "x": 7099,
+          "y": 156
+        },
+        {
+          "id": "five-oaks",
+          "name": "Five Oaks",
+          "x": 1171,
+          "y": 3248
+        },
+        {
+          "id": "five-oaks-triple-creek",
+          "name": "Five Oaks/Triple Creek",
+          "x": 1053,
+          "y": 3234
+        },
+        {
+          "id": "forest-park",
+          "name": "Forest Park",
+          "x": 3762,
+          "y": 2804
+        },
+        {
+          "id": "foster-powell",
+          "name": "Foster-Powell",
+          "x": 7242,
+          "y": 4220
+        },
+        {
+          "id": "garden-home",
+          "name": "Garden Home",
+          "x": 3411,
+          "y": 5126
+        },
+        {
+          "id": "gateway",
+          "name": "Gateway",
+          "x": 7966,
+          "y": 2881
+        },
+        {
+          "id": "goose-hollow",
+          "name": "Goose Hollow",
+          "x": 4828,
+          "y": 3404
+        },
+        {
+          "id": "grant-park",
+          "name": "Grant Park",
+          "x": 6333,
+          "y": 2661
+        },
+        {
+          "id": "gray-oak",
+          "name": "Gray Oak",
+          "x": 1053,
+          "y": 3440
+        },
+        {
+          "id": "green-hills",
+          "name": "Green Hills",
+          "x": 3985,
+          "y": 3815
+        },
+        {
+          "id": "harborton",
+          "name": "Harborton",
+          "x": 2197,
+          "y": 180
+        },
+        {
+          "id": "hawthorne",
+          "name": "Hawthorne",
+          "x": 6508,
+          "y": 3592
+        },
+        {
+          "id": "hayden-island",
+          "name": "Hayden Island",
+          "x": 5156,
+          "y": 298
+        },
+        {
+          "id": "hayhurst",
+          "name": "Hayhurst",
+          "x": 3976,
+          "y": 4608
+        },
+        {
+          "id": "hazeldale",
+          "name": "Hazeldale",
+          "x": 154,
+          "y": 5106
+        },
+        {
+          "id": "healy-heights",
+          "name": "Healy Heights",
+          "x": 4696,
+          "y": 4242
+        },
+        {
+          "id": "highland",
+          "name": "Highland",
+          "x": 1988,
+          "y": 4988
+        },
+        {
+          "id": "hillsdale",
+          "name": "Hillsdale",
+          "x": 4770,
+          "y": 4705
+        },
+        {
+          "id": "hillside",
+          "name": "Hillside",
+          "x": 4355,
+          "y": 3082
+        },
+        {
+          "id": "hollywood",
+          "name": "Hollywood",
+          "x": 6525,
+          "y": 2802
+        },
+        {
+          "id": "homestead",
+          "name": "Homestead",
+          "x": 4961,
+          "y": 4126
+        },
+        {
+          "id": "hosford-abernethy",
+          "name": "Hosford-Abernethy",
+          "x": 5839,
+          "y": 3773
+        },
+        {
+          "id": "huber",
+          "name": "Huber",
+          "x": 1140,
+          "y": 4262
+        },
+        {
+          "id": "humboldt",
+          "name": "Humboldt",
+          "x": 5336,
+          "y": 1981
+        },
+        {
+          "id": "irvington",
+          "name": "Irvington",
+          "x": 5851,
+          "y": 2598
+        },
+        {
+          "id": "jade-district",
+          "name": "Jade District",
+          "x": 7490,
+          "y": 3831
+        },
+        {
+          "id": "john-s-landing",
+          "name": "John's Landing",
+          "x": 5252,
+          "y": 4762
+        },
+        {
+          "id": "kenton",
+          "name": "Kenton",
+          "x": 4820,
+          "y": 1228
+        },
+        {
+          "id": "kerns",
+          "name": "Kerns",
+          "x": 5953,
+          "y": 3104
+        },
+        {
+          "id": "king",
+          "name": "King",
+          "x": 5630,
+          "y": 2071
+        },
+        {
+          "id": "kings-heights",
+          "name": "Kings Heights",
+          "x": 4477,
+          "y": 3020
+        },
+        {
+          "id": "ladd-s-addition",
+          "name": "Ladd's Addition",
+          "x": 5839,
+          "y": 3710
+        },
+        {
+          "id": "lair-hill",
+          "name": "Lair Hill",
+          "x": 5130,
+          "y": 3925
+        },
+        {
+          "id": "laurelhurst",
+          "name": "Laurelhurst",
+          "x": 6421,
+          "y": 3112
+        },
+        {
+          "id": "lents",
+          "name": "Lents",
+          "x": 7818,
+          "y": 4670
+        },
+        {
+          "id": "linnton",
+          "name": "Linnton",
+          "x": 2639,
+          "y": 656
+        },
+        {
+          "id": "lloyd-district",
+          "name": "Lloyd District",
+          "x": 5591,
+          "y": 2950
+        },
+        {
+          "id": "madison-south",
+          "name": "Madison South",
+          "x": 7631,
+          "y": 2632
+        },
+        {
+          "id": "maplewood",
+          "name": "Maplewood",
+          "x": 3878,
+          "y": 4927
+        },
+        {
+          "id": "marlene-village",
+          "name": "Marlene Village",
+          "x": 1901,
+          "y": 3428
+        },
+        {
+          "id": "marquam-hill",
+          "name": "Marquam Hill",
+          "x": 4904,
+          "y": 4027
+        },
+        {
+          "id": "maywood-park",
+          "name": "Maywood Park",
+          "x": 7892,
+          "y": 2242
+        },
+        {
+          "id": "mcloughlin",
+          "name": "McLoughlin",
+          "x": 6969,
+          "y": 311
+        },
+        {
+          "id": "merlo-station",
+          "name": "Merlo Station",
+          "x": 1512,
+          "y": 3754
+        },
+        {
+          "id": "mississippi",
+          "name": "Mississippi",
+          "x": 5230,
+          "y": 2281
+        },
+        {
+          "id": "mocks-bottom",
+          "name": "Mocks Bottom",
+          "x": 4448,
+          "y": 1732
+        },
+        {
+          "id": "montavilla",
+          "name": "Montavilla",
+          "x": 7539,
+          "y": 3360
+        },
+        {
+          "id": "mortondale",
+          "name": "Mortondale",
+          "x": 1308,
+          "y": 3629
+        },
+        {
+          "id": "mount-scott-arleta",
+          "name": "Mount Scott-Arleta",
+          "x": 7190,
+          "y": 4613
+        },
+        {
+          "id": "mount-tabor",
+          "name": "Mount Tabor",
+          "x": 6999,
+          "y": 3471
+        },
+        {
+          "id": "multnomah",
+          "name": "Multnomah",
+          "x": 4363,
+          "y": 5119
+        },
+        {
+          "id": "multnomah-village",
+          "name": "Multnomah Village",
+          "x": 4365,
+          "y": 5052
+        },
+        {
+          "id": "nob-hill",
+          "name": "Nob Hill",
+          "x": 4696,
+          "y": 3000
+        },
+        {
+          "id": "north-bethany",
+          "name": "North Bethany",
+          "x": 1268,
+          "y": 1646
+        },
+        {
+          "id": "north-tabor",
+          "name": "North Tabor",
+          "x": 6877,
+          "y": 3166
+        },
+        {
+          "id": "northwest-district",
+          "name": "Northwest District",
+          "x": 4688,
+          "y": 2896
+        },
+        {
+          "id": "northwest-heights",
+          "name": "Northwest Heights",
+          "x": 2928,
+          "y": 2637
+        },
+        {
+          "id": "northwest-industrial",
+          "name": "Northwest Industrial",
+          "x": 4148,
+          "y": 2314
+        },
+        {
+          "id": "oak-hills",
+          "name": "Oak Hills",
+          "x": 1378,
+          "y": 2631
+        },
+        {
+          "id": "old-evergreen-highway",
+          "name": "Old Evergreen Highway",
+          "x": 7894,
+          "y": 565
+        },
+        {
+          "id": "old-town",
+          "name": "Old Town",
+          "x": 5278,
+          "y": 3165
+        },
+        {
+          "id": "overlook",
+          "name": "Overlook",
+          "x": 4848,
+          "y": 2027
+        },
+        {
+          "id": "parkrose",
+          "name": "Parkrose",
+          "x": 8138,
+          "y": 2083
+        },
+        {
+          "id": "pearl-district",
+          "name": "Pearl District",
+          "x": 5090,
+          "y": 3028
+        },
+        {
+          "id": "piedmont",
+          "name": "Piedmont",
+          "x": 5374,
+          "y": 1514
+        },
+        {
+          "id": "pine-grove",
+          "name": "Pine Grove",
+          "x": 1057,
+          "y": 3876
+        },
+        {
+          "id": "portland",
+          "name": "Portland",
+          "x": 5262,
+          "y": 3321
+        },
+        {
+          "id": "portland-heights",
+          "name": "Portland Heights",
+          "x": 4704,
+          "y": 3656
+        },
+        {
+          "id": "portsmouth",
+          "name": "Portsmouth",
+          "x": 4208,
+          "y": 1066
+        },
+        {
+          "id": "quatama",
+          "name": "Quatama",
+          "x": 250,
+          "y": 3224
+        },
+        {
+          "id": "raleigh-hills",
+          "name": "Raleigh Hills",
+          "x": 3530,
+          "y": 4449
+        },
+        {
+          "id": "raleigh-west",
+          "name": "Raleigh West",
+          "x": 2764,
+          "y": 4605
+        },
+        {
+          "id": "reed",
+          "name": "Reed",
+          "x": 6235,
+          "y": 4501
+        },
+        {
+          "id": "richmond",
+          "name": "Richmond",
+          "x": 6462,
+          "y": 3839
+        },
+        {
+          "id": "riverview",
+          "name": "Riverview",
+          "x": 6851,
+          "y": 270
+        },
+        {
+          "id": "rock-creek",
+          "name": "Rock Creek",
+          "x": 432,
+          "y": 2213
+        },
+        {
+          "id": "rose-city-park",
+          "name": "Rose City Park",
+          "x": 6842,
+          "y": 2716
+        },
+        {
+          "id": "roseway",
+          "name": "Roseway",
+          "x": 7246,
+          "y": 2348
+        },
+        {
+          "id": "russell-landing",
+          "name": "Russell Landing",
+          "x": 7356,
+          "y": 465
+        },
+        {
+          "id": "russellville",
+          "name": "Russellville",
+          "x": 7973,
+          "y": 3362
+        },
+        {
+          "id": "sabin",
+          "name": "Sabin",
+          "x": 5838,
+          "y": 2272
+        },
+        {
+          "id": "saint-johns",
+          "name": "Saint Johns",
+          "x": 3601,
+          "y": 730
+        },
+        {
+          "id": "sellwood",
+          "name": "Sellwood",
+          "x": 5756,
+          "y": 5148
+        },
+        {
+          "id": "sellwood-moreland",
+          "name": "Sellwood-Moreland",
+          "x": 5792,
+          "y": 4942
+        },
+        {
+          "id": "slabtown",
+          "name": "Slabtown",
+          "x": 4786,
+          "y": 2856
+        },
+        {
+          "id": "somerset-west",
+          "name": "Somerset West",
+          "x": 749,
+          "y": 2429
+        },
+        {
+          "id": "south-aloha",
+          "name": "South Aloha",
+          "x": 754,
+          "y": 4812
+        },
+        {
+          "id": "south-burlingame",
+          "name": "South Burlingame",
+          "x": 5024,
+          "y": 5102
+        },
+        {
+          "id": "south-portland",
+          "name": "South Portland",
+          "x": 5210,
+          "y": 4385
+        },
+        {
+          "id": "south-tabor",
+          "name": "South Tabor",
+          "x": 7136,
+          "y": 3948
+        },
+        {
+          "id": "south-waterfront",
+          "name": "South Waterfront",
+          "x": 5356,
+          "y": 4134
+        },
+        {
+          "id": "southwest-hills",
+          "name": "Southwest Hills",
+          "x": 4351,
+          "y": 3918
+        },
+        {
+          "id": "sullivan-s-gulch",
+          "name": "Sullivan's Gulch",
+          "x": 6047,
+          "y": 2899
+        },
+        {
+          "id": "sumner",
+          "name": "Sumner",
+          "x": 7632,
+          "y": 2040
+        },
+        {
+          "id": "sunderland",
+          "name": "Sunderland",
+          "x": 6122,
+          "y": 1247
+        },
+        {
+          "id": "sunnyside",
+          "name": "Sunnyside",
+          "x": 6419,
+          "y": 3470
+        },
+        {
+          "id": "swan-island",
+          "name": "Swan Island",
+          "x": 4451,
+          "y": 1996
+        },
+        {
+          "id": "sylvan-highlands",
+          "name": "Sylvan-Highlands",
+          "x": 3962,
+          "y": 3524
+        },
+        {
+          "id": "tanasbourne",
+          "name": "Tanasbourne",
+          "x": 690,
+          "y": 2719
+        },
+        {
+          "id": "terra-linda",
+          "name": "Terra Linda",
+          "x": 1940,
+          "y": 2934
+        },
+        {
+          "id": "terwilliger",
+          "name": "Terwilliger",
+          "x": 5194,
+          "y": 4487
+        },
+        {
+          "id": "timberland",
+          "name": "Timberland",
+          "x": 2355,
+          "y": 3231
+        },
+        {
+          "id": "tobias",
+          "name": "Tobias",
+          "x": 484,
+          "y": 4138
+        },
+        {
+          "id": "triple-creek",
+          "name": "Triple Creek",
+          "x": 926,
+          "y": 3135
+        },
+        {
+          "id": "university-district",
+          "name": "University District",
+          "x": 5026,
+          "y": 3638
+        },
+        {
+          "id": "university-park",
+          "name": "University Park",
+          "x": 3986,
+          "y": 1406
+        },
+        {
+          "id": "valle-vista",
+          "name": "Valle Vista",
+          "x": 192,
+          "y": 547
+        },
+        {
+          "id": "vermont-hills",
+          "name": "Vermont Hills",
+          "x": 4011,
+          "y": 4747
+        },
+        {
+          "id": "vernon",
+          "name": "Vernon",
+          "x": 5865,
+          "y": 1922
+        },
+        {
+          "id": "vose",
+          "name": "Vose",
+          "x": 2332,
+          "y": 4834
+        },
+        {
+          "id": "west-beaverton",
+          "name": "West Beaverton",
+          "x": 1417,
+          "y": 4644
+        },
+        {
+          "id": "west-haven",
+          "name": "West Haven",
+          "x": 3047,
+          "y": 3407
+        },
+        {
+          "id": "west-haven-sylvan",
+          "name": "West Haven-Sylvan",
+          "x": 3164,
+          "y": 3487
+        },
+        {
+          "id": "west-slope",
+          "name": "West Slope",
+          "x": 3027,
+          "y": 4043
+        },
+        {
+          "id": "west-union",
+          "name": "West Union",
+          "x": 188,
+          "y": 1797
+        },
+        {
+          "id": "westmoreland",
+          "name": "Westmoreland",
+          "x": 5895,
+          "y": 4784
+        },
+        {
+          "id": "whitford",
+          "name": "Whitford",
+          "x": 2950,
+          "y": 4923
+        },
+        {
+          "id": "whitwood-court",
+          "name": "Whitwood Court",
+          "x": 2982,
+          "y": 1153
+        },
+        {
+          "id": "wilcox-estates",
+          "name": "Wilcox Estates",
+          "x": 3941,
+          "y": 4125
+        },
+        {
+          "id": "willamette-heights",
+          "name": "Willamette Heights",
+          "x": 4251,
+          "y": 2826
+        },
+        {
+          "id": "willow-creek",
+          "name": "Willow Creek",
+          "x": 765,
+          "y": 3462
+        },
+        {
+          "id": "woodland-park",
+          "name": "Woodland Park",
+          "x": 7933,
+          "y": 2822
+        },
+        {
+          "id": "woodlawn",
+          "name": "Woodlawn",
+          "x": 5770,
+          "y": 1599
+        },
+        {
+          "id": "woodstock",
+          "name": "Woodstock",
+          "x": 6652,
+          "y": 4635
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "image": {
+        "width": 4661,
+        "height": 8297
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 6,
+      "tiles": {
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/gps-test-v1.0.0/seattle-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 9194297
+      },
+      "markers": "markers/seattle.json",
+      "initialView": {
+        "x": 2298,
+        "y": 4347,
+        "zoom": 4
+      },
+      "description": "Seattle, Washington, from Northgate down to Rainier Beach, and from Discovery Park across to Lake Washington. Drawn from OpenStreetMap data.",
+      "source": {
+        "name": "OpenStreetMap contributors, drawn from OpenMapTiles via OpenFreeMap",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL"
+      },
+      "geo": {
+        "points": [
+          [
+            0,
+            0,
+            47.7350229,
+            -122.4400091
+          ],
+          [
+            2330,
+            0,
+            47.7350229,
+            -122.3400164
+          ],
+          [
+            4661,
+            0,
+            47.7350229,
+            -122.2399807
+          ],
+          [
+            0,
+            4148,
+            47.6151609,
+            -122.4400091
+          ],
+          [
+            2330,
+            4148,
+            47.6151609,
+            -122.3400164
+          ],
+          [
+            4661,
+            4148,
+            47.6151609,
+            -122.2399807
+          ],
+          [
+            0,
+            8297,
+            47.4949945,
+            -122.4400091
+          ],
+          [
+            2330,
+            8297,
+            47.4949945,
+            -122.3400164
+          ],
+          [
+            4661,
+            8297,
+            47.4949945,
+            -122.2399807
+          ]
+        ]
+      },
+      "regions": [
+        {
+          "id": "admiral",
+          "name": "Admiral",
+          "x": 1246,
+          "y": 5322
+        },
+        {
+          "id": "alaska-junction",
+          "name": "Alaska Junction",
+          "x": 1241,
+          "y": 6014
+        },
+        {
+          "id": "alicia-park",
+          "name": "Alicia Park",
+          "x": 3567,
+          "y": 1158
+        },
+        {
+          "id": "alki",
+          "name": "Alki",
+          "x": 703,
+          "y": 5494
+        },
+        {
+          "id": "arbor-heights",
+          "name": "Arbor Heights",
+          "x": 1367,
+          "y": 7679
+        },
+        {
+          "id": "arroyo-heights",
+          "name": "Arroyo Heights",
+          "x": 1363,
+          "y": 7910
+        },
+        {
+          "id": "ballard",
+          "name": "Ballard",
+          "x": 1253,
+          "y": 2026
+        },
+        {
+          "id": "beacon-hill",
+          "name": "Beacon Hill",
+          "x": 3030,
+          "y": 5446
+        },
+        {
+          "id": "belltown",
+          "name": "Belltown",
+          "x": 2206,
+          "y": 4215
+        },
+        {
+          "id": "beverly-park",
+          "name": "Beverly Park",
+          "x": 2542,
+          "y": 8238
+        },
+        {
+          "id": "bitter-lake",
+          "name": "Bitter Lake",
+          "x": 2139,
+          "y": 408
+        },
+        {
+          "id": "blue-ridge",
+          "name": "Blue Ridge",
+          "x": 1505,
+          "y": 1162
+        },
+        {
+          "id": "brighton",
+          "name": "Brighton",
+          "x": 3926,
+          "y": 6718
+        },
+        {
+          "id": "brighton-beach",
+          "name": "Brighton Beach",
+          "x": 4217,
+          "y": 6602
+        },
+        {
+          "id": "broadmoor",
+          "name": "Broadmoor",
+          "x": 3502,
+          "y": 3456
+        },
+        {
+          "id": "broadview",
+          "name": "Broadview",
+          "x": 1842,
+          "y": 533
+        },
+        {
+          "id": "bryant",
+          "name": "Bryant",
+          "x": 3615,
+          "y": 2177
+        },
+        {
+          "id": "canterbury",
+          "name": "Canterbury",
+          "x": 3654,
+          "y": 3285
+        },
+        {
+          "id": "capitol-hill",
+          "name": "Capitol Hill",
+          "x": 2834,
+          "y": 3848
+        },
+        {
+          "id": "carleton-park",
+          "name": "Carleton Park",
+          "x": 783,
+          "y": 3309
+        },
+        {
+          "id": "cascade",
+          "name": "Cascade",
+          "x": 2485,
+          "y": 3967
+        },
+        {
+          "id": "cedar-park",
+          "name": "Cedar Park",
+          "x": 3590,
+          "y": 325
+        },
+        {
+          "id": "central-business-district",
+          "name": "Central Business District",
+          "x": 2417,
+          "y": 4343
+        },
+        {
+          "id": "central-campus",
+          "name": "Central Campus",
+          "x": 3111,
+          "y": 2745
+        },
+        {
+          "id": "central-district",
+          "name": "Central District",
+          "x": 3070,
+          "y": 4564
+        },
+        {
+          "id": "chinatown",
+          "name": "Chinatown",
+          "x": 2678,
+          "y": 4758
+        },
+        {
+          "id": "chinatown-international-district",
+          "name": "Chinatown-International District",
+          "x": 2739,
+          "y": 4729
+        },
+        {
+          "id": "columbia",
+          "name": "Columbia",
+          "x": 3836,
+          "y": 5916
+        },
+        {
+          "id": "columbia-city",
+          "name": "Columbia City",
+          "x": 3607,
+          "y": 6126
+        },
+        {
+          "id": "crown-hill",
+          "name": "Crown Hill",
+          "x": 1569,
+          "y": 1339
+        },
+        {
+          "id": "delridge",
+          "name": "Delridge",
+          "x": 1774,
+          "y": 6326
+        },
+        {
+          "id": "denny-blaine",
+          "name": "Denny-Blaine",
+          "x": 3589,
+          "y": 3900
+        },
+        {
+          "id": "dunlap",
+          "name": "Dunlap",
+          "x": 3972,
+          "y": 7038
+        },
+        {
+          "id": "duwamish",
+          "name": "Duwamish",
+          "x": 3472,
+          "y": 7893
+        },
+        {
+          "id": "east-campus",
+          "name": "East Campus",
+          "x": 3287,
+          "y": 2711
+        },
+        {
+          "id": "eastlake",
+          "name": "Eastlake",
+          "x": 2663,
+          "y": 3261
+        },
+        {
+          "id": "edgewater-park",
+          "name": "Edgewater Park",
+          "x": 3752,
+          "y": 3228
+        },
+        {
+          "id": "endolyne",
+          "name": "Endolyne",
+          "x": 1082,
+          "y": 7548
+        },
+        {
+          "id": "fairmont-springs",
+          "name": "Fairmont Springs",
+          "x": 1356,
+          "y": 6332
+        },
+        {
+          "id": "fauntleroy",
+          "name": "Fauntleroy",
+          "x": 1086,
+          "y": 7352
+        },
+        {
+          "id": "first-hill",
+          "name": "First Hill",
+          "x": 2680,
+          "y": 4350
+        },
+        {
+          "id": "foy",
+          "name": "Foy",
+          "x": 2211,
+          "y": 36
+        },
+        {
+          "id": "fremont",
+          "name": "Fremont",
+          "x": 2098,
+          "y": 2928
+        },
+        {
+          "id": "georgetown",
+          "name": "Georgetown",
+          "x": 2562,
+          "y": 6436
+        },
+        {
+          "id": "glendale",
+          "name": "Glendale",
+          "x": 2891,
+          "y": 7680
+        },
+        {
+          "id": "graham",
+          "name": "Graham",
+          "x": 3595,
+          "y": 6538
+        },
+        {
+          "id": "greek-row",
+          "name": "Greek Row",
+          "x": 3045,
+          "y": 2515
+        },
+        {
+          "id": "green-lake",
+          "name": "Green Lake",
+          "x": 2701,
+          "y": 1900
+        },
+        {
+          "id": "greenwood",
+          "name": "Greenwood",
+          "x": 1984,
+          "y": 1525
+        },
+        {
+          "id": "haller-lake",
+          "name": "Haller Lake",
+          "x": 2466,
+          "y": 450
+        },
+        {
+          "id": "hawthorne-heights",
+          "name": "Hawthorne Heights",
+          "x": 3944,
+          "y": 2106
+        },
+        {
+          "id": "hawthorne-hills",
+          "name": "Hawthorne Hills",
+          "x": 3825,
+          "y": 2180
+        },
+        {
+          "id": "high-point",
+          "name": "High Point",
+          "x": 1464,
+          "y": 6872
+        },
+        {
+          "id": "highland-park",
+          "name": "Highland Park",
+          "x": 2036,
+          "y": 7144
+        },
+        {
+          "id": "hillman-city",
+          "name": "Hillman City",
+          "x": 3784,
+          "y": 6356
+        },
+        {
+          "id": "interbay",
+          "name": "Interbay",
+          "x": 1484,
+          "y": 3264
+        },
+        {
+          "id": "inverness",
+          "name": "Inverness",
+          "x": 3851,
+          "y": 1479
+        },
+        {
+          "id": "japantown",
+          "name": "Japantown",
+          "x": 2648,
+          "y": 4670
+        },
+        {
+          "id": "jefferson-park",
+          "name": "Jefferson Park",
+          "x": 3154,
+          "y": 6061
+        },
+        {
+          "id": "kenwood",
+          "name": "Kenwood",
+          "x": 3308,
+          "y": 154
+        },
+        {
+          "id": "lake-city",
+          "name": "Lake City",
+          "x": 3368,
+          "y": 550
+        },
+        {
+          "id": "lake-park",
+          "name": "Lake Park",
+          "x": 4489,
+          "y": 488
+        },
+        {
+          "id": "lakeridge",
+          "name": "Lakeridge",
+          "x": 4557,
+          "y": 7897
+        },
+        {
+          "id": "lakewood",
+          "name": "Lakewood",
+          "x": 3920,
+          "y": 5945
+        },
+        {
+          "id": "laurelhurst",
+          "name": "Laurelhurst",
+          "x": 3791,
+          "y": 2553
+        },
+        {
+          "id": "lavilla",
+          "name": "Lavilla",
+          "x": 3828,
+          "y": 1380
+        },
+        {
+          "id": "lawton-park",
+          "name": "Lawton Park",
+          "x": 1033,
+          "y": 2802
+        },
+        {
+          "id": "leschi",
+          "name": "Leschi",
+          "x": 3452,
+          "y": 4654
+        },
+        {
+          "id": "licton-springs",
+          "name": "Licton Springs",
+          "x": 2446,
+          "y": 1290
+        },
+        {
+          "id": "little-saigon",
+          "name": "Little Saigon",
+          "x": 2861,
+          "y": 4700
+        },
+        {
+          "id": "loyal-heights",
+          "name": "Loyal Heights",
+          "x": 1098,
+          "y": 1604
+        },
+        {
+          "id": "madison-park",
+          "name": "Madison Park",
+          "x": 3724,
+          "y": 3430
+        },
+        {
+          "id": "madison-valley",
+          "name": "Madison Valley",
+          "x": 3365,
+          "y": 3984
+        },
+        {
+          "id": "madrona",
+          "name": "Madrona",
+          "x": 3467,
+          "y": 4230
+        },
+        {
+          "id": "magnolia",
+          "name": "Magnolia",
+          "x": 944,
+          "y": 3054
+        },
+        {
+          "id": "magnolia-village",
+          "name": "Magnolia Village",
+          "x": 942,
+          "y": 3288
+        },
+        {
+          "id": "manitou",
+          "name": "Manitou",
+          "x": 4198,
+          "y": 421
+        },
+        {
+          "id": "maple-leaf",
+          "name": "Maple Leaf",
+          "x": 2852,
+          "y": 1247
+        },
+        {
+          "id": "matthews-beach",
+          "name": "Matthews Beach",
+          "x": 3768,
+          "y": 1038
+        },
+        {
+          "id": "mcgilvra",
+          "name": "McGilvra",
+          "x": 4593,
+          "y": 4985
+        },
+        {
+          "id": "meadowbrook",
+          "name": "Meadowbrook",
+          "x": 3476,
+          "y": 1009
+        },
+        {
+          "id": "meridian",
+          "name": "Meridian",
+          "x": 2554,
+          "y": 2267
+        },
+        {
+          "id": "montlake",
+          "name": "Montlake",
+          "x": 3192,
+          "y": 3240
+        },
+        {
+          "id": "morgan-junction",
+          "name": "Morgan Junction",
+          "x": 1230,
+          "y": 6576
+        },
+        {
+          "id": "morningside",
+          "name": "Morningside",
+          "x": 3482,
+          "y": 1300
+        },
+        {
+          "id": "mount-baker",
+          "name": "Mount Baker",
+          "x": 3506,
+          "y": 5413
+        },
+        {
+          "id": "newholly",
+          "name": "NewHolly",
+          "x": 3521,
+          "y": 6800
+        },
+        {
+          "id": "north-beach",
+          "name": "North Beach",
+          "x": 1110,
+          "y": 1344
+        },
+        {
+          "id": "northgate",
+          "name": "Northgate",
+          "x": 2719,
+          "y": 881
+        },
+        {
+          "id": "olympic-hills",
+          "name": "Olympic Hills",
+          "x": 3186,
+          "y": 293
+        },
+        {
+          "id": "olympic-manor",
+          "name": "Olympic Manor",
+          "x": 1301,
+          "y": 1474
+        },
+        {
+          "id": "othello",
+          "name": "Othello",
+          "x": 3707,
+          "y": 6844
+        },
+        {
+          "id": "phinney-ridge",
+          "name": "Phinney Ridge",
+          "x": 2004,
+          "y": 2178
+        },
+        {
+          "id": "pinehurst",
+          "name": "Pinehurst",
+          "x": 2840,
+          "y": 529
+        },
+        {
+          "id": "portage-bay",
+          "name": "Portage Bay",
+          "x": 2808,
+          "y": 3092
+        },
+        {
+          "id": "queen-anne",
+          "name": "Queen Anne",
+          "x": 1847,
+          "y": 3307
+        },
+        {
+          "id": "rainier-beach",
+          "name": "Rainier Beach",
+          "x": 3955,
+          "y": 7328
+        },
+        {
+          "id": "rainier-valley",
+          "name": "Rainier Valley",
+          "x": 3475,
+          "y": 6311
+        },
+        {
+          "id": "rainier-view",
+          "name": "Rainier View",
+          "x": 4064,
+          "y": 8139
+        },
+        {
+          "id": "rainier-vista",
+          "name": "Rainier Vista",
+          "x": 3383,
+          "y": 5951
+        },
+        {
+          "id": "ravenna",
+          "name": "Ravenna",
+          "x": 3247,
+          "y": 2051
+        },
+        {
+          "id": "roosevelt",
+          "name": "Roosevelt",
+          "x": 2897,
+          "y": 2050
+        },
+        {
+          "id": "sand-point",
+          "name": "Sand Point",
+          "x": 4109,
+          "y": 1831
+        },
+        {
+          "id": "seattle",
+          "name": "Seattle",
+          "x": 2562,
+          "y": 4540
+        },
+        {
+          "id": "seaview",
+          "name": "Seaview",
+          "x": 809,
+          "y": 2207
+        },
+        {
+          "id": "seward-park",
+          "name": "Seward Park",
+          "x": 4059,
+          "y": 6357
+        },
+        {
+          "id": "shorewood",
+          "name": "Shorewood",
+          "x": 1764,
+          "y": 8196
+        },
+        {
+          "id": "south-beacon-hill",
+          "name": "South Beacon Hill",
+          "x": 3552,
+          "y": 7220
+        },
+        {
+          "id": "south-campus",
+          "name": "South Campus",
+          "x": 3046,
+          "y": 2953
+        },
+        {
+          "id": "south-lake-union",
+          "name": "South Lake Union",
+          "x": 2368,
+          "y": 3872
+        },
+        {
+          "id": "south-park",
+          "name": "South Park",
+          "x": 2728,
+          "y": 7211
+        },
+        {
+          "id": "south-seattle",
+          "name": "South Seattle",
+          "x": 2962,
+          "y": 6002
+        },
+        {
+          "id": "southeast-magnolia",
+          "name": "Southeast Magnolia",
+          "x": 1127,
+          "y": 3250
+        },
+        {
+          "id": "southern-heights",
+          "name": "Southern Heights",
+          "x": 2928,
+          "y": 7958
+        },
+        {
+          "id": "sunset-hill",
+          "name": "Sunset Hill",
+          "x": 968,
+          "y": 2071
+        },
+        {
+          "id": "tamill",
+          "name": "Tamill",
+          "x": 4405,
+          "y": 7709
+        },
+        {
+          "id": "top-hat",
+          "name": "Top Hat",
+          "x": 2481,
+          "y": 7893
+        },
+        {
+          "id": "university-district",
+          "name": "University District",
+          "x": 2956,
+          "y": 2552
+        },
+        {
+          "id": "university-heights",
+          "name": "University Heights",
+          "x": 2958,
+          "y": 2375
+        },
+        {
+          "id": "university-park",
+          "name": "University Park",
+          "x": 3111,
+          "y": 2351
+        },
+        {
+          "id": "uptown",
+          "name": "Uptown",
+          "x": 1963,
+          "y": 3900
+        },
+        {
+          "id": "van-asselt",
+          "name": "Van Asselt",
+          "x": 2813,
+          "y": 6539
+        },
+        {
+          "id": "victory-heights",
+          "name": "Victory Heights",
+          "x": 3073,
+          "y": 919
+        },
+        {
+          "id": "view-ridge",
+          "name": "View Ridge",
+          "x": 3868,
+          "y": 1921
+        },
+        {
+          "id": "wallingford",
+          "name": "Wallingford",
+          "x": 2462,
+          "y": 2616
+        },
+        {
+          "id": "washington-park",
+          "name": "Washington Park",
+          "x": 3554,
+          "y": 3719
+        },
+        {
+          "id": "wedgwood",
+          "name": "Wedgwood",
+          "x": 3482,
+          "y": 1552
+        },
+        {
+          "id": "west-campus",
+          "name": "West Campus",
+          "x": 2898,
+          "y": 2781
+        },
+        {
+          "id": "west-edge",
+          "name": "West Edge",
+          "x": 2386,
+          "y": 4453
+        },
+        {
+          "id": "west-seattle",
+          "name": "West Seattle",
+          "x": 1246,
+          "y": 5676
+        },
+        {
+          "id": "west-woodland",
+          "name": "West Woodland",
+          "x": 1845,
+          "y": 2296
+        },
+        {
+          "id": "westlake",
+          "name": "Westlake",
+          "x": 2293,
+          "y": 3546
+        },
+        {
+          "id": "westwood",
+          "name": "Westwood",
+          "x": 1587,
+          "y": 7238
+        },
+        {
+          "id": "white-center",
+          "name": "White Center",
+          "x": 1964,
+          "y": 7558
+        },
+        {
+          "id": "whittier-heights",
+          "name": "Whittier Heights",
+          "x": 1598,
+          "y": 1791
+        },
+        {
+          "id": "windermere",
+          "name": "Windermere",
+          "x": 4153,
+          "y": 2219
+        },
+        {
+          "id": "yesler-terrace",
+          "name": "Yesler Terrace",
+          "x": 2816,
+          "y": 4628
+        },
+        {
+          "id": "youngstown",
+          "name": "Youngstown",
+          "x": 1828,
+          "y": 5828
+        }
+      ]
+    },
+    {
+      "id": "baltimore",
+      "name": "Baltimore",
+      "image": {
+        "width": 4661,
+        "height": 5420
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 5,
+      "tiles": {
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/gps-test-v1.0.0/baltimore-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 8529617
+      },
+      "markers": "markers/baltimore.json",
+      "initialView": {
+        "x": 2605,
+        "y": 2708,
+        "zoom": 3
+      },
+      "description": "Baltimore, Maryland: the whole city, from the Inner Harbor out to its edges. Drawn from OpenStreetMap data.",
+      "source": {
+        "name": "OpenStreetMap contributors, drawn from OpenMapTiles via OpenFreeMap",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL"
+      },
+      "geo": {
+        "points": [
+          [
+            0,
+            0,
+            39.3750138,
+            -76.7200184
+          ],
+          [
+            2330,
+            0,
+            39.3750138,
+            -76.6200256
+          ],
+          [
+            4661,
+            0,
+            39.3750138,
+            -76.51999
+          ],
+          [
+            0,
+            2710,
+            39.2850544,
+            -76.7200184
+          ],
+          [
+            2330,
+            2710,
+            39.2850544,
+            -76.6200256
+          ],
+          [
+            4661,
+            2710,
+            39.2850544,
+            -76.51999
+          ],
+          [
+            0,
+            5420,
+            39.1949793,
+            -76.7200184
+          ],
+          [
+            2330,
+            5420,
+            39.1949793,
+            -76.6200256
+          ],
+          [
+            4661,
+            5420,
+            39.1949793,
+            -76.51999
+          ]
+        ]
+      },
+      "regions": [
+        {
+          "id": "abell",
+          "name": "Abell",
+          "x": 2529,
+          "y": 1478
+        },
+        {
+          "id": "acer-lane",
+          "name": "Acer Lane",
+          "x": 1736,
+          "y": 4757
+        },
+        {
+          "id": "allendale",
+          "name": "Allendale",
+          "x": 1004,
+          "y": 2510
+        },
+        {
+          "id": "arbutus",
+          "name": "Arbutus",
+          "x": 615,
+          "y": 3842
+        },
+        {
+          "id": "arcadia",
+          "name": "Arcadia",
+          "x": 3542,
+          "y": 1224
+        },
+        {
+          "id": "arlington",
+          "name": "Arlington",
+          "x": 870,
+          "y": 793
+        },
+        {
+          "id": "armistead-gardens",
+          "name": "Armistead Gardens",
+          "x": 3912,
+          "y": 2011
+        },
+        {
+          "id": "arundel-gardens",
+          "name": "Arundel Gardens",
+          "x": 2357,
+          "y": 4890
+        },
+        {
+          "id": "arundel-hills",
+          "name": "Arundel Hills",
+          "x": 1924,
+          "y": 5199
+        },
+        {
+          "id": "arundel-village",
+          "name": "Arundel Village",
+          "x": 2700,
+          "y": 4598
+        },
+        {
+          "id": "ashburton",
+          "name": "Ashburton",
+          "x": 1140,
+          "y": 1418
+        },
+        {
+          "id": "auchentoroly-terrace",
+          "name": "Auchentoroly Terrace",
+          "x": 1735,
+          "y": 1788
+        },
+        {
+          "id": "avalon",
+          "name": "Avalon",
+          "x": 1,
+          "y": 4322
+        },
+        {
+          "id": "baltimore",
+          "name": "Baltimore",
+          "x": 2546,
+          "y": 2534
+        },
+        {
+          "id": "baltimore-highlands",
+          "name": "Baltimore Highlands",
+          "x": 3582,
+          "y": 2474
+        },
+        {
+          "id": "baltimore-peninsula",
+          "name": "Baltimore Peninsula",
+          "x": 2616,
+          "y": 3342
+        },
+        {
+          "id": "barclay",
+          "name": "Barclay",
+          "x": 2512,
+          "y": 1810
+        },
+        {
+          "id": "barre-circle",
+          "name": "Barre Circle",
+          "x": 2139,
+          "y": 2716
+        },
+        {
+          "id": "bayview",
+          "name": "Bayview",
+          "x": 4157,
+          "y": 2578
+        },
+        {
+          "id": "beechfield",
+          "name": "Beechfield",
+          "x": 470,
+          "y": 2948
+        },
+        {
+          "id": "belair-edison",
+          "name": "Belair-Edison",
+          "x": 3545,
+          "y": 1611
+        },
+        {
+          "id": "belair-parkside",
+          "name": "Belair-Parkside",
+          "x": 3533,
+          "y": 1352
+        },
+        {
+          "id": "bellona-gittings",
+          "name": "Bellona-Gittings",
+          "x": 2289,
+          "y": 181
+        },
+        {
+          "id": "belvedere",
+          "name": "Belvedere",
+          "x": 2635,
+          "y": 403
+        },
+        {
+          "id": "benton-terrace",
+          "name": "Benton Terrace",
+          "x": 1704,
+          "y": 5224
+        },
+        {
+          "id": "berea",
+          "name": "Berea",
+          "x": 3310,
+          "y": 1982
+        },
+        {
+          "id": "better-waverly",
+          "name": "Better Waverly",
+          "x": 2666,
+          "y": 1532
+        },
+        {
+          "id": "beverly-hills",
+          "name": "Beverly Hills",
+          "x": 3515,
+          "y": 1085
+        },
+        {
+          "id": "biddle-street",
+          "name": "Biddle Street",
+          "x": 3267,
+          "y": 2146
+        },
+        {
+          "id": "bluegrass-heights",
+          "name": "Bluegrass Heights",
+          "x": 4545,
+          "y": 1537
+        },
+        {
+          "id": "blythewood",
+          "name": "Blythewood",
+          "x": 2206,
+          "y": 712
+        },
+        {
+          "id": "bolton-hill",
+          "name": "Bolton Hill",
+          "x": 2191,
+          "y": 2005
+        },
+        {
+          "id": "boyd-booth",
+          "name": "Boyd-Booth",
+          "x": 1632,
+          "y": 2649
+        },
+        {
+          "id": "brewers-hill",
+          "name": "Brewers Hill",
+          "x": 3623,
+          "y": 2745
+        },
+        {
+          "id": "bridgeview-greenlawn",
+          "name": "Bridgeview/Greenlawn",
+          "x": 1494,
+          "y": 2239
+        },
+        {
+          "id": "broadway-east",
+          "name": "Broadway East",
+          "x": 3052,
+          "y": 1994
+        },
+        {
+          "id": "broening-manor",
+          "name": "Broening Manor",
+          "x": 4243,
+          "y": 3047
+        },
+        {
+          "id": "brooklyn",
+          "name": "Brooklyn",
+          "x": 2719,
+          "y": 4244
+        },
+        {
+          "id": "brooklyn-park",
+          "name": "Brooklyn Park",
+          "x": 2416,
+          "y": 4414
+        },
+        {
+          "id": "brooklyn-terrace",
+          "name": "Brooklyn Terrace",
+          "x": 2571,
+          "y": 5182
+        },
+        {
+          "id": "burleith-leighton",
+          "name": "Burleith-Leighton",
+          "x": 1386,
+          "y": 1675
+        },
+        {
+          "id": "butchers-hill",
+          "name": "Butchers Hill",
+          "x": 3094,
+          "y": 2520
+        },
+        {
+          "id": "care",
+          "name": "CARE",
+          "x": 3095,
+          "y": 2368
+        },
+        {
+          "id": "callaway-garrison",
+          "name": "Callaway-Garrison",
+          "x": 946,
+          "y": 1291
+        },
+        {
+          "id": "cameron-village",
+          "name": "Cameron Village",
+          "x": 2813,
+          "y": 551
+        },
+        {
+          "id": "canton",
+          "name": "Canton",
+          "x": 3386,
+          "y": 2856
+        },
+        {
+          "id": "capitol-hills",
+          "name": "Capitol Hills",
+          "x": 2403,
+          "y": 5308
+        },
+        {
+          "id": "carroll-south-hilton",
+          "name": "Carroll-South Hilton",
+          "x": 1231,
+          "y": 2684
+        },
+        {
+          "id": "carrollton-ridge",
+          "name": "Carrollton Ridge",
+          "x": 1660,
+          "y": 2771
+        },
+        {
+          "id": "cedarcroft",
+          "name": "Cedarcroft",
+          "x": 2470,
+          "y": 142
+        },
+        {
+          "id": "cedmont",
+          "name": "Cedmont",
+          "x": 4334,
+          "y": 842
+        },
+        {
+          "id": "cedonia",
+          "name": "Cedonia",
+          "x": 4388,
+          "y": 1356
+        },
+        {
+          "id": "central-forest-park",
+          "name": "Central Forest Park",
+          "x": 736,
+          "y": 1460
+        },
+        {
+          "id": "central-park-heights",
+          "name": "Central Park Heights",
+          "x": 1137,
+          "y": 921
+        },
+        {
+          "id": "charles-north",
+          "name": "Charles North",
+          "x": 2396,
+          "y": 1927
+        },
+        {
+          "id": "charles-village",
+          "name": "Charles Village",
+          "x": 2406,
+          "y": 1607
+        },
+        {
+          "id": "cherry-hill",
+          "name": "Cherry Hill",
+          "x": 2167,
+          "y": 3793
+        },
+        {
+          "id": "cheswolde",
+          "name": "Cheswolde",
+          "x": 890,
+          "y": 220
+        },
+        {
+          "id": "chinatown",
+          "name": "Chinatown",
+          "x": 2374,
+          "y": 2456
+        },
+        {
+          "id": "chinquapin-park",
+          "name": "Chinquapin Park",
+          "x": 2749,
+          "y": 353
+        },
+        {
+          "id": "coldspring",
+          "name": "Coldspring",
+          "x": 1495,
+          "y": 777
+        },
+        {
+          "id": "coldstream-homestead-montebello",
+          "name": "Coldstream-Homestead-Montebello",
+          "x": 2869,
+          "y": 1604
+        },
+        {
+          "id": "concerned-citizens-of-forest-park",
+          "name": "Concerned Citizens Of Forest Park",
+          "x": 846,
+          "y": 1565
+        },
+        {
+          "id": "coppin-heights-ash-co-east",
+          "name": "Coppin Heights/Ash-Co-East",
+          "x": 1468,
+          "y": 2039
+        },
+        {
+          "id": "crestwood",
+          "name": "Crestwood",
+          "x": 1380,
+          "y": 4781
+        },
+        {
+          "id": "cromwell-fountain",
+          "name": "Cromwell Fountain",
+          "x": 2642,
+          "y": 5408
+        },
+        {
+          "id": "cromwell-station",
+          "name": "Cromwell Station",
+          "x": 2610,
+          "y": 5349
+        },
+        {
+          "id": "cross-country",
+          "name": "Cross Country",
+          "x": 527,
+          "y": 270
+        },
+        {
+          "id": "cross-keys",
+          "name": "Cross Keys",
+          "x": 1710,
+          "y": 577
+        },
+        {
+          "id": "curtis-bay",
+          "name": "Curtis Bay",
+          "x": 3029,
+          "y": 4511
+        },
+        {
+          "id": "cylburn",
+          "name": "Cylburn",
+          "x": 1301,
+          "y": 814
+        },
+        {
+          "id": "darley-park",
+          "name": "Darley Park",
+          "x": 2939,
+          "y": 1791
+        },
+        {
+          "id": "dickeyville",
+          "name": "Dickeyville",
+          "x": 347,
+          "y": 1794
+        },
+        {
+          "id": "dolfield",
+          "name": "Dolfield",
+          "x": 932,
+          "y": 1124
+        },
+        {
+          "id": "dorchester",
+          "name": "Dorchester",
+          "x": 782,
+          "y": 1293
+        },
+        {
+          "id": "downtown",
+          "name": "Downtown",
+          "x": 2470,
+          "y": 2526
+        },
+        {
+          "id": "downtown-west",
+          "name": "Downtown West",
+          "x": 2383,
+          "y": 2670
+        },
+        {
+          "id": "druid-heights",
+          "name": "Druid Heights",
+          "x": 1928,
+          "y": 1998
+        },
+        {
+          "id": "dunbar-broadway",
+          "name": "Dunbar-Broadway",
+          "x": 2920,
+          "y": 2401
+        },
+        {
+          "id": "dundalk",
+          "name": "Dundalk",
+          "x": 4575,
+          "y": 3542
+        },
+        {
+          "id": "east-arlington",
+          "name": "East Arlington",
+          "x": 1201,
+          "y": 1291
+        },
+        {
+          "id": "east-baltimore-midway",
+          "name": "East Baltimore Midway",
+          "x": 2710,
+          "y": 1809
+        },
+        {
+          "id": "east-landsdowne",
+          "name": "East Landsdowne",
+          "x": 1667,
+          "y": 3871
+        },
+        {
+          "id": "easterwood",
+          "name": "Easterwood",
+          "x": 1626,
+          "y": 2024
+        },
+        {
+          "id": "eastwood",
+          "name": "Eastwood",
+          "x": 4513,
+          "y": 2498
+        },
+        {
+          "id": "edgewood",
+          "name": "Edgewood",
+          "x": 1050,
+          "y": 2404
+        },
+        {
+          "id": "edmondson-village",
+          "name": "Edmondson Village",
+          "x": 899,
+          "y": 2361
+        },
+        {
+          "id": "ednor-gardens-lakeside",
+          "name": "Ednor Gardens-Lakeside",
+          "x": 2881,
+          "y": 1296
+        },
+        {
+          "id": "ehrmansville",
+          "name": "Ehrmansville",
+          "x": 414,
+          "y": 5309
+        },
+        {
+          "id": "elkridge",
+          "name": "Elkridge",
+          "x": 249,
+          "y": 4777
+        },
+        {
+          "id": "elkridge-heights",
+          "name": "Elkridge Heights",
+          "x": 45,
+          "y": 4909
+        },
+        {
+          "id": "ellwood-park-monument",
+          "name": "Ellwood Park/Monument",
+          "x": 3445,
+          "y": 2338
+        },
+        {
+          "id": "elmwood",
+          "name": "Elmwood",
+          "x": 4610,
+          "y": 684
+        },
+        {
+          "id": "evergreen",
+          "name": "Evergreen",
+          "x": 2121,
+          "y": 864
+        },
+        {
+          "id": "evergreen-lawn",
+          "name": "Evergreen Lawn",
+          "x": 1480,
+          "y": 2362
+        },
+        {
+          "id": "evesham-park",
+          "name": "Evesham Park",
+          "x": 2686,
+          "y": 276
+        },
+        {
+          "id": "fairfield-area",
+          "name": "Fairfield Area",
+          "x": 3151,
+          "y": 4090
+        },
+        {
+          "id": "fairmont",
+          "name": "Fairmont",
+          "x": 920,
+          "y": 1991
+        },
+        {
+          "id": "fallstaff",
+          "name": "Fallstaff",
+          "x": 304,
+          "y": 331
+        },
+        {
+          "id": "federal-hill",
+          "name": "Federal Hill",
+          "x": 2529,
+          "y": 2896
+        },
+        {
+          "id": "fell-s-point",
+          "name": "Fell's Point",
+          "x": 2953,
+          "y": 2756
+        },
+        {
+          "id": "forest-park",
+          "name": "Forest Park",
+          "x": 870,
+          "y": 1469
+        },
+        {
+          "id": "forest-park-golf-course",
+          "name": "Forest Park Golf Course",
+          "x": 605,
+          "y": 1518
+        },
+        {
+          "id": "four-by-four",
+          "name": "Four by Four",
+          "x": 3334,
+          "y": 1776
+        },
+        {
+          "id": "frankford",
+          "name": "Frankford",
+          "x": 4025,
+          "y": 1390
+        },
+        {
+          "id": "franklin-square",
+          "name": "Franklin Square",
+          "x": 1803,
+          "y": 2538
+        },
+        {
+          "id": "franklintown",
+          "name": "Franklintown",
+          "x": 363,
+          "y": 2056
+        },
+        {
+          "id": "franklintown-road",
+          "name": "Franklintown Road",
+          "x": 1227,
+          "y": 2326
+        },
+        {
+          "id": "fullerton-heights",
+          "name": "Fullerton Heights",
+          "x": 4584,
+          "y": 332
+        },
+        {
+          "id": "gapgalleon",
+          "name": "Gapgalleon",
+          "x": 1445,
+          "y": 4890
+        },
+        {
+          "id": "garden-village-park",
+          "name": "Garden Village Park",
+          "x": 4480,
+          "y": 1378
+        },
+        {
+          "id": "garwyn-oaks",
+          "name": "Garwyn Oaks",
+          "x": 954,
+          "y": 1712
+        },
+        {
+          "id": "gay-street",
+          "name": "Gay Street",
+          "x": 2869,
+          "y": 2220
+        },
+        {
+          "id": "glen",
+          "name": "Glen",
+          "x": 748,
+          "y": 570
+        },
+        {
+          "id": "glen-oaks",
+          "name": "Glen Oaks",
+          "x": 2889,
+          "y": 288
+        },
+        {
+          "id": "glenham-belhar",
+          "name": "Glenham-Belhar",
+          "x": 4020,
+          "y": 756
+        },
+        {
+          "id": "graceland",
+          "name": "Graceland",
+          "x": 4491,
+          "y": 2944
+        },
+        {
+          "id": "graceland-park",
+          "name": "Graceland Park",
+          "x": 4363,
+          "y": 2811
+        },
+        {
+          "id": "greater-govans",
+          "name": "Greater Govans",
+          "x": 2565,
+          "y": 468
+        },
+        {
+          "id": "greater-roland-park",
+          "name": "Greater Roland Park",
+          "x": 2003,
+          "y": 646
+        },
+        {
+          "id": "greater-rosemont",
+          "name": "Greater Rosemont",
+          "x": 1306,
+          "y": 2167
+        },
+        {
+          "id": "greektown",
+          "name": "Greektown",
+          "x": 3861,
+          "y": 2693
+        },
+        {
+          "id": "greenmount-west",
+          "name": "Greenmount West",
+          "x": 2530,
+          "y": 1993
+        },
+        {
+          "id": "greenspring",
+          "name": "Greenspring",
+          "x": 1399,
+          "y": 1140
+        },
+        {
+          "id": "grove-park",
+          "name": "Grove Park",
+          "x": 412,
+          "y": 1041
+        },
+        {
+          "id": "grove-ridge",
+          "name": "Grove Ridge",
+          "x": 1768,
+          "y": 5015
+        },
+        {
+          "id": "guilford",
+          "name": "Guilford",
+          "x": 2460,
+          "y": 1068
+        },
+        {
+          "id": "guilford-manor",
+          "name": "Guilford Manor",
+          "x": 2571,
+          "y": 4748
+        },
+        {
+          "id": "gwynn-oak",
+          "name": "Gwynn Oak",
+          "x": 45,
+          "y": 1570
+        },
+        {
+          "id": "gwynn-s-falls",
+          "name": "Gwynn's Falls",
+          "x": 1246,
+          "y": 2915
+        },
+        {
+          "id": "halethorpe",
+          "name": "Halethorpe",
+          "x": 927,
+          "y": 4071
+        },
+        {
+          "id": "hamilton",
+          "name": "Hamilton",
+          "x": 3778,
+          "y": 558
+        },
+        {
+          "id": "hamilton-hills",
+          "name": "Hamilton Hills",
+          "x": 3610,
+          "y": 371
+        },
+        {
+          "id": "hamiltowne",
+          "name": "Hamiltowne",
+          "x": 4607,
+          "y": 1580
+        },
+        {
+          "id": "hampden",
+          "name": "Hampden",
+          "x": 1982,
+          "y": 1328
+        },
+        {
+          "id": "hanlon-longwood",
+          "name": "Hanlon-Longwood",
+          "x": 1179,
+          "y": 1719
+        },
+        {
+          "id": "harbor-point",
+          "name": "Harbor Point",
+          "x": 2835,
+          "y": 2845
+        },
+        {
+          "id": "harbor-valley-estates",
+          "name": "Harbor Valley Estates",
+          "x": 2267,
+          "y": 4639
+        },
+        {
+          "id": "harbor-view",
+          "name": "Harbor View",
+          "x": 4536,
+          "y": 2775
+        },
+        {
+          "id": "harlem-park",
+          "name": "Harlem Park",
+          "x": 1866,
+          "y": 2367
+        },
+        {
+          "id": "harris-heights",
+          "name": "Harris Heights",
+          "x": 2312,
+          "y": 5232
+        },
+        {
+          "id": "harwood",
+          "name": "Harwood",
+          "x": 2534,
+          "y": 1630
+        },
+        {
+          "id": "hawkins-point",
+          "name": "Hawkins Point",
+          "x": 3802,
+          "y": 5026
+        },
+        {
+          "id": "heritage-crossing",
+          "name": "Heritage Crossing",
+          "x": 2127,
+          "y": 2376
+        },
+        {
+          "id": "heritage-hill",
+          "name": "Heritage Hill",
+          "x": 2215,
+          "y": 5316
+        },
+        {
+          "id": "highgate-village",
+          "name": "Highgate Village",
+          "x": 477,
+          "y": 4457
+        },
+        {
+          "id": "highlandtown",
+          "name": "Highlandtown",
+          "x": 3553,
+          "y": 2607
+        },
+        {
+          "id": "hillcrest",
+          "name": "Hillcrest",
+          "x": 2577,
+          "y": 4405
+        },
+        {
+          "id": "hillen",
+          "name": "Hillen",
+          "x": 3028,
+          "y": 999
+        },
+        {
+          "id": "hoe-s-heights",
+          "name": "Hoe's Heights",
+          "x": 1925,
+          "y": 1029
+        },
+        {
+          "id": "holland-hills",
+          "name": "Holland Hills",
+          "x": 4532,
+          "y": 1169
+        },
+        {
+          "id": "hollins-market",
+          "name": "Hollins Market",
+          "x": 2013,
+          "y": 2644
+        },
+        {
+          "id": "homeland",
+          "name": "Homeland",
+          "x": 2380,
+          "y": 454
+        },
+        {
+          "id": "howard-park",
+          "name": "Howard Park",
+          "x": 456,
+          "y": 1314
+        },
+        {
+          "id": "hunting-ridge",
+          "name": "Hunting Ridge",
+          "x": 486,
+          "y": 2378
+        },
+        {
+          "id": "huntsmoor-south",
+          "name": "Huntsmoor South",
+          "x": 356,
+          "y": 4155
+        },
+        {
+          "id": "idlewood",
+          "name": "Idlewood",
+          "x": 3049,
+          "y": 159
+        },
+        {
+          "id": "inner-harbor",
+          "name": "Inner Harbor",
+          "x": 2516,
+          "y": 2683
+        },
+        {
+          "id": "irvington",
+          "name": "Irvington",
+          "x": 838,
+          "y": 2812
+        },
+        {
+          "id": "johnston-square",
+          "name": "Johnston Square",
+          "x": 2662,
+          "y": 2159
+        },
+        {
+          "id": "jonestown",
+          "name": "Jonestown",
+          "x": 2729,
+          "y": 2540
+        },
+        {
+          "id": "kenilworth-park",
+          "name": "Kenilworth Park",
+          "x": 2778,
+          "y": 749
+        },
+        {
+          "id": "kenwood",
+          "name": "Kenwood",
+          "x": 215,
+          "y": 3118
+        },
+        {
+          "id": "kernewood",
+          "name": "Kernewood",
+          "x": 2486,
+          "y": 858
+        },
+        {
+          "id": "keswick",
+          "name": "Keswick",
+          "x": 2050,
+          "y": 957
+        },
+        {
+          "id": "kingston-heights",
+          "name": "Kingston Heights",
+          "x": 1367,
+          "y": 5049
+        },
+        {
+          "id": "kresson",
+          "name": "Kresson",
+          "x": 3722,
+          "y": 2495
+        },
+        {
+          "id": "lake-evesham",
+          "name": "Lake Evesham",
+          "x": 2476,
+          "y": 257
+        },
+        {
+          "id": "lake-walker",
+          "name": "Lake Walker",
+          "x": 2702,
+          "y": 157
+        },
+        {
+          "id": "lakeland",
+          "name": "Lakeland",
+          "x": 1722,
+          "y": 3595
+        },
+        {
+          "id": "langston-hughes",
+          "name": "Langston Hughes",
+          "x": 920,
+          "y": 944
+        },
+        {
+          "id": "lansdowne",
+          "name": "Lansdowne",
+          "x": 1386,
+          "y": 3912
+        },
+        {
+          "id": "lauraville",
+          "name": "Lauraville",
+          "x": 3423,
+          "y": 890
+        },
+        {
+          "id": "levindale",
+          "name": "Levindale",
+          "x": 1297,
+          "y": 660
+        },
+        {
+          "id": "liberty-square",
+          "name": "Liberty Square",
+          "x": 1451,
+          "y": 1590
+        },
+        {
+          "id": "linthicum",
+          "name": "Linthicum",
+          "x": 1405,
+          "y": 5152
+        },
+        {
+          "id": "linthicum-hills",
+          "name": "Linthicum Hills",
+          "x": 1580,
+          "y": 4722
+        },
+        {
+          "id": "linthicum-oaks",
+          "name": "Linthicum Oaks",
+          "x": 1606,
+          "y": 5266
+        },
+        {
+          "id": "little-italy",
+          "name": "Little Italy",
+          "x": 2764,
+          "y": 2658
+        },
+        {
+          "id": "loch-raven",
+          "name": "Loch Raven",
+          "x": 3222,
+          "y": 431
+        },
+        {
+          "id": "locust-point",
+          "name": "Locust Point",
+          "x": 2987,
+          "y": 3164
+        },
+        {
+          "id": "lower-edmondson-village",
+          "name": "Lower Edmondson Village",
+          "x": 1074,
+          "y": 2480
+        },
+        {
+          "id": "loyola-notre-dame",
+          "name": "Loyola/Notre Dame",
+          "x": 2260,
+          "y": 806
+        },
+        {
+          "id": "lucille-park",
+          "name": "Lucille Park",
+          "x": 1021,
+          "y": 1034
+        },
+        {
+          "id": "lutz-hill",
+          "name": "Lutz Hill",
+          "x": 4616,
+          "y": 1278
+        },
+        {
+          "id": "lynnbrook",
+          "name": "Lynnbrook",
+          "x": 1943,
+          "y": 5082
+        },
+        {
+          "id": "madison-park",
+          "name": "Madison Park",
+          "x": 2126,
+          "y": 2111
+        },
+        {
+          "id": "madison-eastend",
+          "name": "Madison-Eastend",
+          "x": 3322,
+          "y": 2243
+        },
+        {
+          "id": "maryland-manor",
+          "name": "Maryland Manor",
+          "x": 4465,
+          "y": 1990
+        },
+        {
+          "id": "mayfield",
+          "name": "Mayfield",
+          "x": 3250,
+          "y": 1384
+        },
+        {
+          "id": "mcelderry-park",
+          "name": "McElderry Park",
+          "x": 3258,
+          "y": 2347
+        },
+        {
+          "id": "medfield",
+          "name": "Medfield",
+          "x": 1797,
+          "y": 1048
+        },
+        {
+          "id": "medford",
+          "name": "Medford",
+          "x": 4026,
+          "y": 2907
+        },
+        {
+          "id": "michaelton-manor",
+          "name": "Michaelton Manor",
+          "x": 1302,
+          "y": 4940
+        },
+        {
+          "id": "mid-govans",
+          "name": "Mid-Govans",
+          "x": 2659,
+          "y": 524
+        },
+        {
+          "id": "mid-town-belvedere",
+          "name": "Mid-Town Belvedere",
+          "x": 2411,
+          "y": 2146
+        },
+        {
+          "id": "middle-east",
+          "name": "Middle East",
+          "x": 3056,
+          "y": 2217
+        },
+        {
+          "id": "midtown-edmonson",
+          "name": "Midtown-Edmonson",
+          "x": 1636,
+          "y": 2372
+        },
+        {
+          "id": "milhill",
+          "name": "Milhill",
+          "x": 1475,
+          "y": 2874
+        },
+        {
+          "id": "milton-montford",
+          "name": "Milton-Montford",
+          "x": 3191,
+          "y": 2247
+        },
+        {
+          "id": "mondawmin",
+          "name": "Mondawmin",
+          "x": 1577,
+          "y": 1875
+        },
+        {
+          "id": "montebello",
+          "name": "Montebello",
+          "x": 3203,
+          "y": 1159
+        },
+        {
+          "id": "moravia-walther",
+          "name": "Moravia-Walther",
+          "x": 3618,
+          "y": 1032
+        },
+        {
+          "id": "morgan-park",
+          "name": "Morgan Park",
+          "x": 3279,
+          "y": 833
+        },
+        {
+          "id": "morrell-park",
+          "name": "Morrell Park",
+          "x": 1491,
+          "y": 3358
+        },
+        {
+          "id": "morris-hills",
+          "name": "Morris Hills",
+          "x": 2655,
+          "y": 5249
+        },
+        {
+          "id": "mosher",
+          "name": "Mosher",
+          "x": 1346,
+          "y": 2332
+        },
+        {
+          "id": "mount-holly",
+          "name": "Mount Holly",
+          "x": 969,
+          "y": 1886
+        },
+        {
+          "id": "mount-vernon",
+          "name": "Mount Vernon",
+          "x": 2431,
+          "y": 2323
+        },
+        {
+          "id": "mount-washington",
+          "name": "Mount Washington",
+          "x": 1323,
+          "y": 419
+        },
+        {
+          "id": "mount-winans",
+          "name": "Mount Winans",
+          "x": 1753,
+          "y": 3408
+        },
+        {
+          "id": "new-northwood",
+          "name": "New Northwood",
+          "x": 2904,
+          "y": 778
+        },
+        {
+          "id": "new-southwest-mount-clare",
+          "name": "New Southwest/Mount Clare",
+          "x": 1828,
+          "y": 2761
+        },
+        {
+          "id": "north-harford-road",
+          "name": "North Harford Road",
+          "x": 4037,
+          "y": 221
+        },
+        {
+          "id": "north-linthicum",
+          "name": "North Linthicum",
+          "x": 1600,
+          "y": 4589
+        },
+        {
+          "id": "north-roland-park-poplar-hill",
+          "name": "North Roland Park/Poplar Hill",
+          "x": 1880,
+          "y": 224
+        },
+        {
+          "id": "northwest-community-action",
+          "name": "Northwest Community Action",
+          "x": 1269,
+          "y": 2069
+        },
+        {
+          "id": "northwood",
+          "name": "Northwood",
+          "x": 2879,
+          "y": 914
+        },
+        {
+          "id": "norwood-park",
+          "name": "Norwood Park",
+          "x": 4603,
+          "y": 3076
+        },
+        {
+          "id": "nottingham",
+          "name": "Nottingham",
+          "x": 1930,
+          "y": 5291
+        },
+        {
+          "id": "o-donnell-heights",
+          "name": "O'Donnell Heights",
+          "x": 4217,
+          "y": 2914
+        },
+        {
+          "id": "oakenshawe",
+          "name": "Oakenshawe",
+          "x": 2502,
+          "y": 1342
+        },
+        {
+          "id": "oaklee",
+          "name": "Oaklee",
+          "x": 817,
+          "y": 3227
+        },
+        {
+          "id": "old-goucher",
+          "name": "Old Goucher",
+          "x": 2390,
+          "y": 1777
+        },
+        {
+          "id": "old-town",
+          "name": "Old Town",
+          "x": 2716,
+          "y": 2334
+        },
+        {
+          "id": "oliver",
+          "name": "Oliver",
+          "x": 2822,
+          "y": 2022
+        },
+        {
+          "id": "orangeville",
+          "name": "Orangeville",
+          "x": 3714,
+          "y": 2203
+        },
+        {
+          "id": "orchard-ridge",
+          "name": "Orchard Ridge",
+          "x": 3736,
+          "y": 1891
+        },
+        {
+          "id": "orchards-of-linthicum",
+          "name": "Orchards of Linthicum",
+          "x": 1516,
+          "y": 5057
+        },
+        {
+          "id": "original-northwood",
+          "name": "Original Northwood",
+          "x": 2875,
+          "y": 1057
+        },
+        {
+          "id": "otterbein",
+          "name": "Otterbein",
+          "x": 2425,
+          "y": 2802
+        },
+        {
+          "id": "overlea",
+          "name": "Overlea",
+          "x": 4342,
+          "y": 433
+        },
+        {
+          "id": "panway-braddish-avenue",
+          "name": "Panway/Braddish Avenue",
+          "x": 1329,
+          "y": 1861
+        },
+        {
+          "id": "paradise",
+          "name": "Paradise",
+          "x": 46,
+          "y": 3177
+        },
+        {
+          "id": "park-circle",
+          "name": "Park Circle",
+          "x": 1397,
+          "y": 1404
+        },
+        {
+          "id": "park-heights",
+          "name": "Park Heights",
+          "x": 1344,
+          "y": 1232
+        },
+        {
+          "id": "parklane",
+          "name": "Parklane",
+          "x": 1344,
+          "y": 973
+        },
+        {
+          "id": "parkside",
+          "name": "Parkside",
+          "x": 3830,
+          "y": 1546
+        },
+        {
+          "id": "parktowne",
+          "name": "Parktowne",
+          "x": 4578,
+          "y": 39
+        },
+        {
+          "id": "parkview-woodbrook",
+          "name": "Parkview/Woodbrook",
+          "x": 1673,
+          "y": 1750
+        },
+        {
+          "id": "patapsco",
+          "name": "Patapsco",
+          "x": 752,
+          "y": 4856
+        },
+        {
+          "id": "patapsco-park",
+          "name": "Patapsco Park",
+          "x": 1872,
+          "y": 4806
+        },
+        {
+          "id": "patterson-park",
+          "name": "Patterson Park",
+          "x": 3394,
+          "y": 2472
+        },
+        {
+          "id": "patterson-place",
+          "name": "Patterson Place",
+          "x": 3184,
+          "y": 2447
+        },
+        {
+          "id": "pen-lucy",
+          "name": "Pen Lucy",
+          "x": 2680,
+          "y": 1073
+        },
+        {
+          "id": "penn-north",
+          "name": "Penn North",
+          "x": 1799,
+          "y": 1880
+        },
+        {
+          "id": "penn-fallsway",
+          "name": "Penn-Fallsway",
+          "x": 2592,
+          "y": 2328
+        },
+        {
+          "id": "penrose-fayette-street-outreach",
+          "name": "Penrose/Fayette Street Outreach",
+          "x": 1520,
+          "y": 2530
+        },
+        {
+          "id": "perkins-homes",
+          "name": "Perkins Homes",
+          "x": 2879,
+          "y": 2619
+        },
+        {
+          "id": "perring-loch",
+          "name": "Perring Loch",
+          "x": 3141,
+          "y": 674
+        },
+        {
+          "id": "pickwick",
+          "name": "Pickwick",
+          "x": 804,
+          "y": 39
+        },
+        {
+          "id": "pimlico-good-neighbors",
+          "name": "Pimlico Good Neighbors",
+          "x": 995,
+          "y": 677
+        },
+        {
+          "id": "pinehurst",
+          "name": "Pinehurst",
+          "x": 2364,
+          "y": 46
+        },
+        {
+          "id": "pleasant-view-gardens",
+          "name": "Pleasant View Gardens",
+          "x": 2729,
+          "y": 2454
+        },
+        {
+          "id": "point-breeze",
+          "name": "Point Breeze",
+          "x": 4081,
+          "y": 3408
+        },
+        {
+          "id": "poppleton",
+          "name": "Poppleton",
+          "x": 2036,
+          "y": 2520
+        },
+        {
+          "id": "port-covington",
+          "name": "Port Covington",
+          "x": 2579,
+          "y": 3471
+        },
+        {
+          "id": "pumphrey",
+          "name": "Pumphrey",
+          "x": 1930,
+          "y": 4748
+        },
+        {
+          "id": "purnell",
+          "name": "Purnell",
+          "x": 335,
+          "y": 1627
+        },
+        {
+          "id": "radnor-winston",
+          "name": "Radnor-Winston",
+          "x": 2506,
+          "y": 758
+        },
+        {
+          "id": "ramblewood",
+          "name": "Ramblewood",
+          "x": 3020,
+          "y": 350
+        },
+        {
+          "id": "reisterstown-station",
+          "name": "Reisterstown Station",
+          "x": 406,
+          "y": 638
+        },
+        {
+          "id": "relay",
+          "name": "Relay",
+          "x": 396,
+          "y": 4430
+        },
+        {
+          "id": "remington",
+          "name": "Remington",
+          "x": 2267,
+          "y": 1632
+        },
+        {
+          "id": "reservoir-hill",
+          "name": "Reservoir Hill",
+          "x": 2021,
+          "y": 1847
+        },
+        {
+          "id": "richnor-springs",
+          "name": "Richnor Springs",
+          "x": 2638,
+          "y": 848
+        },
+        {
+          "id": "ridgely-s-delight",
+          "name": "Ridgely's Delight",
+          "x": 2220,
+          "y": 2730
+        },
+        {
+          "id": "ridgeway-manor",
+          "name": "Ridgeway Manor",
+          "x": 1652,
+          "y": 4589
+        },
+        {
+          "id": "river-chase",
+          "name": "River Chase",
+          "x": 302,
+          "y": 4186
+        },
+        {
+          "id": "riverside",
+          "name": "Riverside",
+          "x": 2630,
+          "y": 3078
+        },
+        {
+          "id": "rognel-heights",
+          "name": "Rognel Heights",
+          "x": 697,
+          "y": 2389
+        },
+        {
+          "id": "roland-park",
+          "name": "Roland Park",
+          "x": 1964,
+          "y": 763
+        },
+        {
+          "id": "roland-terrace",
+          "name": "Roland Terrace",
+          "x": 2778,
+          "y": 4689
+        },
+        {
+          "id": "rollins-view-green",
+          "name": "Rollins View Green",
+          "x": 4390,
+          "y": 47
+        },
+        {
+          "id": "rosebank",
+          "name": "Rosebank",
+          "x": 2527,
+          "y": 361
+        },
+        {
+          "id": "rosemont",
+          "name": "Rosemont",
+          "x": 1152,
+          "y": 2118
+        },
+        {
+          "id": "rosemont-east",
+          "name": "Rosemont East",
+          "x": 4238,
+          "y": 586
+        },
+        {
+          "id": "rosemont-homeowners-tenants",
+          "name": "Rosemont Homeowners/Tenants",
+          "x": 1450,
+          "y": 2432
+        },
+        {
+          "id": "sabina-mattfeldt",
+          "name": "Sabina-Mattfeldt",
+          "x": 1642,
+          "y": 262
+        },
+        {
+          "id": "saint-agnes",
+          "name": "Saint Agnes",
+          "x": 1056,
+          "y": 3040
+        },
+        {
+          "id": "saint-denis",
+          "name": "Saint Denis",
+          "x": 357,
+          "y": 4589
+        },
+        {
+          "id": "saint-helena",
+          "name": "Saint Helena",
+          "x": 4392,
+          "y": 3431
+        },
+        {
+          "id": "saint-josephs",
+          "name": "Saint Josephs",
+          "x": 1044,
+          "y": 2691
+        },
+        {
+          "id": "saint-paul",
+          "name": "Saint Paul",
+          "x": 1774,
+          "y": 3266
+        },
+        {
+          "id": "sandtown-winchester",
+          "name": "Sandtown-Winchester",
+          "x": 1792,
+          "y": 2142
+        },
+        {
+          "id": "seton-hill",
+          "name": "Seton Hill",
+          "x": 2243,
+          "y": 2355
+        },
+        {
+          "id": "sharp-leadenhall",
+          "name": "Sharp-Leadenhall",
+          "x": 2387,
+          "y": 2952
+        },
+        {
+          "id": "shipley",
+          "name": "Shipley",
+          "x": 1483,
+          "y": 5308
+        },
+        {
+          "id": "shipley-heights",
+          "name": "Shipley Heights",
+          "x": 1341,
+          "y": 5199
+        },
+        {
+          "id": "shipley-hill",
+          "name": "Shipley Hill",
+          "x": 1474,
+          "y": 2670
+        },
+        {
+          "id": "shirley-estates",
+          "name": "Shirley Estates",
+          "x": 1710,
+          "y": 5299
+        },
+        {
+          "id": "south-baltimore",
+          "name": "South Baltimore",
+          "x": 2468,
+          "y": 3131
+        },
+        {
+          "id": "south-clifton-park",
+          "name": "South Clifton Park",
+          "x": 3029,
+          "y": 1861
+        },
+        {
+          "id": "sowebo",
+          "name": "Sowebo",
+          "x": 1911,
+          "y": 2656
+        },
+        {
+          "id": "stonewood-pentwood-winston",
+          "name": "Stonewood-Pentwood-Winston",
+          "x": 3065,
+          "y": 815
+        },
+        {
+          "id": "sunnyfield",
+          "name": "Sunnyfield",
+          "x": 2034,
+          "y": 4998
+        },
+        {
+          "id": "taylor-heights",
+          "name": "Taylor Heights",
+          "x": 4321,
+          "y": 158
+        },
+        {
+          "id": "ten-hills",
+          "name": "Ten Hills",
+          "x": 458,
+          "y": 2627
+        },
+        {
+          "id": "terrace-view-estates",
+          "name": "Terrace View Estates",
+          "x": 2079,
+          "y": 4677
+        },
+        {
+          "id": "the-orchards",
+          "name": "The Orchards",
+          "x": 2136,
+          "y": 218
+        },
+        {
+          "id": "towanda-grantley",
+          "name": "Towanda-Grantley",
+          "x": 1220,
+          "y": 1174
+        },
+        {
+          "id": "tremont",
+          "name": "Tremont",
+          "x": 596,
+          "y": 2763
+        },
+        {
+          "id": "tuscany-canterbury",
+          "name": "Tuscany-Canterbury",
+          "x": 2291,
+          "y": 1106
+        },
+        {
+          "id": "twin-oaks",
+          "name": "Twin Oaks",
+          "x": 1516,
+          "y": 4940
+        },
+        {
+          "id": "union-square",
+          "name": "Union Square",
+          "x": 1845,
+          "y": 2654
+        },
+        {
+          "id": "uplands",
+          "name": "Uplands",
+          "x": 644,
+          "y": 2547
+        },
+        {
+          "id": "upper-fell-s-point",
+          "name": "Upper Fell's Point",
+          "x": 3058,
+          "y": 2625
+        },
+        {
+          "id": "upton",
+          "name": "Upton",
+          "x": 2071,
+          "y": 2208
+        },
+        {
+          "id": "van-dyke-manor",
+          "name": "Van Dyke Manor",
+          "x": 4493,
+          "y": 1002
+        },
+        {
+          "id": "villages-of-homeland",
+          "name": "Villages Of Homeland",
+          "x": 2464,
+          "y": 667
+        },
+        {
+          "id": "violetville",
+          "name": "Violetville",
+          "x": 1064,
+          "y": 3229
+        },
+        {
+          "id": "wakefield",
+          "name": "Wakefield",
+          "x": 466,
+          "y": 1873
+        },
+        {
+          "id": "walbrook",
+          "name": "Walbrook",
+          "x": 1201,
+          "y": 1907
+        },
+        {
+          "id": "waltherson",
+          "name": "Waltherson",
+          "x": 3786,
+          "y": 956
+        },
+        {
+          "id": "washington-hill",
+          "name": "Washington Hill",
+          "x": 2920,
+          "y": 2506
+        },
+        {
+          "id": "washington-village-pigtown",
+          "name": "Washington Village/Pigtown",
+          "x": 2031,
+          "y": 2821
+        },
+        {
+          "id": "waverly",
+          "name": "Waverly",
+          "x": 2634,
+          "y": 1288
+        },
+        {
+          "id": "west-arlington",
+          "name": "West Arlington",
+          "x": 682,
+          "y": 1074
+        },
+        {
+          "id": "west-forest-park",
+          "name": "West Forest Park",
+          "x": 622,
+          "y": 1639
+        },
+        {
+          "id": "west-hills",
+          "name": "West Hills",
+          "x": 296,
+          "y": 2395
+        },
+        {
+          "id": "westfield",
+          "name": "Westfield",
+          "x": 3931,
+          "y": 470
+        },
+        {
+          "id": "westgate",
+          "name": "Westgate",
+          "x": 306,
+          "y": 2749
+        },
+        {
+          "id": "westowne",
+          "name": "Westowne",
+          "x": 40,
+          "y": 2633
+        },
+        {
+          "id": "westport",
+          "name": "Westport",
+          "x": 1950,
+          "y": 3399
+        },
+        {
+          "id": "wilhelm-park",
+          "name": "Wilhelm Park",
+          "x": 1323,
+          "y": 3092
+        },
+        {
+          "id": "willow",
+          "name": "Willow",
+          "x": 2403,
+          "y": 5232
+        },
+        {
+          "id": "wilson-park",
+          "name": "Wilson Park",
+          "x": 2681,
+          "y": 954
+        },
+        {
+          "id": "winchester",
+          "name": "Winchester",
+          "x": 1305,
+          "y": 2197
+        },
+        {
+          "id": "windsor-hills",
+          "name": "Windsor Hills",
+          "x": 795,
+          "y": 1753
+        },
+        {
+          "id": "windsor-terrace",
+          "name": "Windsor Terrace",
+          "x": 189,
+          "y": 1947
+        },
+        {
+          "id": "winston-govans",
+          "name": "Winston-Govans",
+          "x": 2632,
+          "y": 746
+        },
+        {
+          "id": "woodberry",
+          "name": "Woodberry",
+          "x": 1627,
+          "y": 1146
+        },
+        {
+          "id": "woodbourne-heights",
+          "name": "Woodbourne Heights",
+          "x": 2975,
+          "y": 529
+        },
+        {
+          "id": "woodbourne-mccabe",
+          "name": "Woodbourne-McCabe",
+          "x": 2663,
+          "y": 642
+        },
+        {
+          "id": "woodcrest",
+          "name": "Woodcrest",
+          "x": 2351,
+          "y": 5274
+        },
+        {
+          "id": "woodcrest-gardens",
+          "name": "Woodcrest Gardens",
+          "x": 2318,
+          "y": 5391
+        },
+        {
+          "id": "woodmere",
+          "name": "Woodmere",
+          "x": 712,
+          "y": 885
+        },
+        {
+          "id": "wrenlane",
+          "name": "Wrenlane",
+          "x": 2639,
+          "y": 897
+        },
+        {
+          "id": "wyman-park",
+          "name": "Wyman Park",
+          "x": 2182,
+          "y": 1250
+        },
+        {
+          "id": "wyndhurst",
+          "name": "Wyndhurst",
+          "x": 2113,
+          "y": 533
+        },
+        {
+          "id": "wynnewood",
+          "name": "Wynnewood",
+          "x": 544,
+          "y": 4268
+        },
+        {
+          "id": "yale-heights",
+          "name": "Yale Heights",
+          "x": 702,
+          "y": 2991
+        },
+        {
+          "id": "york-homeland",
+          "name": "York-Homeland",
+          "x": 2537,
+          "y": 661
+        }
+      ]
+    },
+    {
+      "id": "corvallis",
+      "name": "Corvallis",
+      "image": {
+        "width": 3263,
+        "height": 3272
+      },
+      "tileSize": 256,
+      "minZoom": 0,
+      "maxZoom": 4,
+      "tiles": {
+        "archive": "https://github.com/rahulskann/demo_maps/releases/download/gps-test-v1.0.0/corvallis-tiles.zip",
+        "path": "{z}/{x}/{y}.png",
+        "archiveBytes": 1959044
+      },
+      "markers": "markers/corvallis.json",
+      "initialView": {
+        "x": 1657,
+        "y": 1803,
+        "zoom": 2
+      },
+      "description": "Corvallis, Oregon: Oregon State University, downtown and the Willamette, with Bald Hill to the west. Drawn from OpenStreetMap data.",
+      "source": {
+        "name": "OpenStreetMap contributors, drawn from OpenMapTiles via OpenFreeMap",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL"
+      },
+      "geo": {
+        "points": [
+          [
+            0,
+            0,
+            44.620013,
+            -123.350029
+          ],
+          [
+            1632,
+            0,
+            44.620013,
+            -123.2799911
+          ],
+          [
+            3263,
+            0,
+            44.620013,
+            -123.2099962
+          ],
+          [
+            0,
+            1636,
+            44.5700177,
+            -123.350029
+          ],
+          [
+            1632,
+            1636,
+            44.5700177,
+            -123.2799911
+          ],
+          [
+            3263,
+            1636,
+            44.5700177,
+            -123.2099962
+          ],
+          [
+            0,
+            3272,
+            44.5199794,
+            -123.350029
+          ],
+          [
+            1632,
+            3272,
+            44.5199794,
+            -123.2799911
+          ],
+          [
+            3263,
+            3272,
+            44.5199794,
+            -123.2099962
+          ]
+        ]
+      },
+      "regions": [
+        {
+          "id": "corvallis",
+          "name": "Corvallis",
+          "x": 2050,
+          "y": 1814
+        },
+        {
+          "id": "skyline-valley",
+          "name": "Skyline Valley",
+          "x": 710,
+          "y": 928
+        },
+        {
+          "id": "south-corvallis",
+          "name": "South Corvallis",
+          "x": 2077,
+          "y": 2550
+        }
+      ]
+    }
+  ]
+}

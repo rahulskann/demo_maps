@@ -1,0 +1,67 @@
+[
+  {
+    "id": "aquarium",
+    "name": "National Aquarium",
+    "category": "landmark",
+    "x": 2605,
+    "y": 2708,
+    "description": "Aquarium on the Inner Harbor. The photo is a test image.",
+    "photo": "photos/test.jpg"
+  },
+  {
+    "id": "fort-mchenry",
+    "name": "Fort McHenry",
+    "category": "landmark",
+    "x": 3165,
+    "y": 3286,
+    "description": "Star-shaped fort whose defence in 1814 inspired The Star-Spangled Banner."
+  },
+  {
+    "id": "camden-yards",
+    "name": "Oriole Park at Camden Yards",
+    "category": "landmark",
+    "x": 2293,
+    "y": 2750,
+    "description": "Home of the Orioles, opened in 1992."
+  },
+  {
+    "id": "mt-bank-stadium",
+    "name": "M&T Bank Stadium",
+    "category": "landmark",
+    "x": 2268,
+    "y": 2923,
+    "description": "Home of the Ravens."
+  },
+  {
+    "id": "washington-monument",
+    "name": "Washington Monument",
+    "category": "landmark",
+    "x": 2432,
+    "y": 2335,
+    "description": "Column topped by George Washington, in Mount Vernon Place."
+  },
+  {
+    "id": "federal-hill",
+    "name": "Federal Hill Park",
+    "category": "park",
+    "x": 2599,
+    "y": 2874,
+    "description": "Hilltop park looking over the Inner Harbor."
+  },
+  {
+    "id": "patterson-park",
+    "name": "Patterson Park",
+    "category": "park",
+    "x": 3290,
+    "y": 2593,
+    "description": "East Baltimore park with a pagoda."
+  },
+  {
+    "id": "druid-hill",
+    "name": "Druid Hill Park",
+    "category": "park",
+    "x": 1759,
+    "y": 1554,
+    "description": "Large park in the north-west of the city, home to the Maryland Zoo."
+  }
+]

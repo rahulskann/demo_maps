@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pike-place",
+    "name": "Pike Place Market",
+    "category": "landmark",
+    "x": 2298,
+    "y": 4347,
+    "description": "Public market above Elliott Bay, open since 1907. The photo is a test image.",
+    "photo": "photos/test.jpg"
+  },
+  {
+    "id": "space-needle",
+    "name": "Space Needle",
+    "category": "landmark",
+    "x": 2114,
+    "y": 3963,
+    "description": "The tower built for the 1962 World's Fair."
+  },
+  {
+    "id": "central-library",
+    "name": "Seattle Central Library",
+    "category": "landmark",
+    "x": 2501,
+    "y": 4441,
+    "description": "Glass-and-steel public library downtown, opened in 2004."
+  },
+  {
+    "id": "lumen-field",
+    "name": "Lumen Field",
+    "category": "landmark",
+    "x": 2525,
+    "y": 4833,
+    "description": "Stadium of the Seahawks and the Sounders."
+  },
+  {
+    "id": "suzzallo",
+    "name": "Suzzallo Library",
+    "category": "landmark",
+    "x": 3075,
+    "y": 2742,
+    "description": "The University of Washington's main library."
+  },
+  {
+    "id": "kerry-park",
+    "name": "Kerry Park",
+    "category": "park",
+    "x": 1866,
+    "y": 3656,
+    "description": "Small park on Queen Anne Hill with the classic view of downtown."
+  },
+  {
+    "id": "gas-works",
+    "name": "Gas Works Park",
+    "category": "park",
+    "x": 2448,
+    "y": 3096,
+    "description": "Park built round an old gasworks on Lake Union."
+  },
+  {
+    "id": "discovery-park",
+    "name": "Discovery Park",
+    "category": "park",
+    "x": 804,
+    "y": 2691,
+    "description": "Seattle's largest park, on the bluffs of Magnolia."
+  },
+  {
+    "id": "green-lake",
+    "name": "Green Lake Park",
+    "category": "park",
+    "x": 2508,
+    "y": 1983,
+    "description": "A lake with a path about three miles round it."
+  }
+]

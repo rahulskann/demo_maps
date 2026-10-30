@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pioneer-square",
+    "name": "Pioneer Courthouse Square",
+    "category": "landmark",
+    "x": 5143,
+    "y": 3366,
+    "description": "The square in the middle of downtown, known as Portland's living room. The photo is a test image.",
+    "photo": "photos/test.jpg"
+  },
+  {
+    "id": "powells",
+    "name": "Powell's City of Books",
+    "category": "landmark",
+    "x": 5089,
+    "y": 3218,
+    "description": "A bookshop that fills a whole city block."
+  },
+  {
+    "id": "omsi",
+    "name": "Oregon Museum of Science and Industry",
+    "category": "landmark",
+    "x": 5461,
+    "y": 3716,
+    "description": "Science museum on the east bank of the Willamette."
+  },
+  {
+    "id": "pittock",
+    "name": "Pittock Mansion",
+    "category": "landmark",
+    "x": 4282,
+    "y": 3156,
+    "description": "A 1914 house high in the West Hills, now a museum."
+  },
+  {
+    "id": "moda-center",
+    "name": "Moda Center",
+    "category": "landmark",
+    "x": 5434,
+    "y": 2944,
+    "description": "Arena, home of the Trail Blazers."
+  },
+  {
+    "id": "rose-garden",
+    "name": "International Rose Test Garden",
+    "category": "park",
+    "x": 4542,
+    "y": 3351,
+    "description": "Rose garden in Washington Park, with views over the city."
+  },
+  {
+    "id": "waterfront-park",
+    "name": "Tom McCall Waterfront Park",
+    "category": "park",
+    "x": 5277,
+    "y": 3610,
+    "description": "Riverside park along the west bank of the Willamette."
+  },
+  {
+    "id": "laurelhurst",
+    "name": "Laurelhurst Park",
+    "category": "park",
+    "x": 6365,
+    "y": 3291,
+    "description": "Park with a pond in Southeast Portland."
+  },
+  {
+    "id": "mt-tabor",
+    "name": "Mount Tabor Park",
+    "category": "park",
+    "x": 7083,
+    "y": 3610,
+    "description": "Park on a volcanic cinder cone, with old reservoirs."
+  }
+]
